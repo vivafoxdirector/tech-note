@@ -1,4 +1,4 @@
-# Tech Node
+# Tech Note
 
 # MySQL
 ### [MySQL Command](https://github.com/vivafoxdirector/tech-note/blob/master/DataBase/MySQL/MySQL-Command.md)
