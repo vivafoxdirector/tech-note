@@ -1,5 +1,6 @@
 # MySQL Command
 
+# 유저 추가 / 삭제
 ## 유저 추가
 ```
 mysql> grant all privileges on hogedb.* to hogehoge@localhost identified by 'hogehoge';
@@ -15,10 +16,17 @@ mysql> delete from mysql.user where user='hogehoge' and host='localhost';
 mysql> select user, host, password from mysql.user;
 ```
 
+# 데이터 베이스 조작
 ## USER 용 데이터 베이스 만들기
 ```
 > mysql -u hogehoge -phogehoge
 mysql> create database hogedb;
+mysql> show databases;
+```
+
+## 데이터 베이스 삭제
+```
+mysql> drop database hogedb;
 mysql> show databases;
 ```
 
@@ -27,12 +35,20 @@ mysql> show databases;
 mysql> use hogedb;
 ```
 
+# 테이블 조작
 ## 테이블 만들기
 ```
 mysql> create table testtbl(num int, name varchar(50));
 mysql> show tables;
 ```
 
+## 테이블 삭제
+```
+mysql> drop table testtbl;
+mysql> show tables;
+```
+
+# 데이터 조작
 ## 데이터 입력
 ```
 mysql> insert into testtbl values(1, 'hogehoge');
@@ -51,18 +67,6 @@ mysql> delete from testtbl where num = 1;
 mysql> select * from testtbl;
 ```
 
-## 테이블 삭제
-```
-mysql> drop table testtbl;
-mysql> show tables;
-```
-
-## 데이터 베이스 삭제
-```
-mysql> drop database hogedb;
-mysql> show databases;
-```
-
 ## 현재 실행중인 SQL표시
 ```
 mysql> show processlist;
@@ -71,6 +75,24 @@ mysql> show processlist;
 ## 인덱스 조회
 ```
 mysql> show index from 테이블명;
+```
+
+# GRANT 권한
+## 권한 추가
+```
+mysql> GRANT CREATE ON 데이터베이스명.* TO 유저명@localhost;
+mysql> GRANT DROP ON 데이터베이스명.* TO 유저명@localhost;
+mysql> GRANT ALTER ON 데이터베이스명.* TO 유저명@localhost;
+```
+## 권한 확인
+```
+mysql> SHOW GRANTS FOR 유저명@localhost \G
+```
+
+## 권한 삭제
+```
+mysql> REVOKE ALL PRIVILEGES ON *.* FROM 유저명@localhost;
+mysql> REVOKE 삭제할권한 ON 대상(데이터베이스명.*) FROM 유저명;
 ```
 
 # MySql 트러블 슈팅
