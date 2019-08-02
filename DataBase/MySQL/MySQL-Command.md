@@ -2,7 +2,11 @@
 
 # 유저 추가 / 삭제
 ## 유저 추가
+* User: hogehoge
+* Pass: hogehoge
+* Db: hogedb
 ```
+> mysql -u root -pPassword
 mysql> grant all privileges on hogedb.* to hogehoge@localhost identified by 'hogehoge';
 mysql> grant all privileges on hogedb.* to hogehoge@'%' identified by 'hogehoge';
 mysql> select user, host, password from mysql.user;
@@ -95,7 +99,7 @@ mysql> REVOKE ALL PRIVILEGES ON *.* FROM 유저명@localhost;
 mysql> REVOKE 삭제할권한 ON 대상(데이터베이스명.*) FROM 유저명;
 ```
 
-# MySql 트러블 슈팅
+# MySQL 트러블 슈팅
 ## 데이터 베이스 백업
 ```
 #> mysqldump -u [mysql user] -p[user password] [Redmine데이터베이스명] > [백업파일명]
