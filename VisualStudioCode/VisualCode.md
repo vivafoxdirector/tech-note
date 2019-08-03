@@ -21,6 +21,18 @@ Ctrl + Shift + L
 |빠른 열기 기능|(Win) Ctrl + P<br>(Mac)Command + P|
 |커맨드 패널|(Win)Ctrl + Shift + P or F1<br>(Mac) Command + Shift + P or F1|
 
+## Editor
+### Editor확장
+win: Ctrl + b
+mac: Cmd + b
+
+### 탐색기
+win: Ctrl + Shift + E
+mac: Cmd + Shift + E
+
+### 에디터 탭 이동
+win: Ctrl + [Shift] + Tab
+mac: Ctrl + [Shift] + Tab
 
 # 참조사이트
 https://qiita.com/buchiya4th/items/c2da23d82059a07e744d
