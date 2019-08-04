@@ -2,10 +2,14 @@
 
 # Edit
 ## Multi Cursor
+```
 Ctrl + Alt + Cursor
+```
 
 ## Select All Occurrences
+```
 Ctrl + Shift + L
+```
 
 ## 표시
 |내용|단축키|
@@ -23,16 +27,53 @@ Ctrl + Shift + L
 
 ## Editor
 ### Editor확장
+```
 win: Ctrl + b
 mac: Cmd + b
+```
 
 ### 탐색기
-win: Ctrl + Shift + E
-mac: Cmd + Shift + E
+```
+win: Ctrl + Shift + e
+mac: Cmd + Shift + e
+```
 
 ### 에디터 탭 이동
+```
 win: Ctrl + [Shift] + Tab
 mac: Ctrl + [Shift] + Tab
+```
+
+## 선택
+### 단어선택
+```
+Ctrl + d
+```
+
+### 행 선택 아래로
+```
+Ctrl + L
+```
+
+### 선택범위 확대/축소
+```
+Shift + Alt + -> / <-
+```
+
+## 복수선택
+### 멀티커서
+```
+Alt + Ctrl + 위/아래
+```
+
+## 검색
+### 에디터내 검색
+Ctrl + f
+
+### 에디터내 치환
+Ctrl + h
+
 
 # 참조사이트
+[VS Code の便利なショートカットキー](https://qiita.com/12345/items/64f4372fbca041e949d0)
 https://qiita.com/buchiya4th/items/c2da23d82059a07e744d
