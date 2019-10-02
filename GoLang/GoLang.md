@@ -36,9 +36,11 @@ golang.Println("This is a sample log message.")
 
 # 트러블슈팅
 ## 에러
+* 이슈
 ```
 cmd/go: go mod init fails to determine module path in subdirectory
 ```
+* 해결
 ```
 go mod init `pwd`
 ```
