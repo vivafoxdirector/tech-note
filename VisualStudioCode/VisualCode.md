@@ -1,5 +1,12 @@
 # Visual Studio Code ShortCut
 
+# Setting
+## settings.json 열기
+기본설정 -> 설정 -> 
+```
+Cmd + ,
+```
+
 # Edit
 ## Multi Cursor
 ```

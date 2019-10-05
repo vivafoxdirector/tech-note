@@ -40,7 +40,7 @@ brew -v list
 brew uninstall formula
 ```
 
-### 업데이트 확인
+### 업데이트된것이 있는지 formula확인
 ```
 brew outdated
 ```
@@ -101,4 +101,5 @@ brew pull [Address]
 ```
 
 # 참조사이트
-[Homebrew使い方まとめ](https://qiita.com/vintersnow/items/fca0be79cdc28bd2f5e4)
+* [Homebrew使い方まとめ](https://qiita.com/vintersnow/items/fca0be79cdc28bd2f5e4)
+* [今さらだけどHomebrewのコマンドをちゃんと理解して使おう](https://qiita.com/fuqda/items/db8aff0ba4068aea2cc6)
