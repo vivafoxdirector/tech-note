@@ -342,12 +342,19 @@ git branch -r
 ### origin branch checkout
 ```
 git branch -r
-git branch [branchname] [origin/branchname]
+git checkout -b [branchname] [origin/branchname]
 ```
 
 ### branch 작성
+-b옵션은 새로 브런치를 작성하고 체크아웃한다
+* local브런치 생성
 ```
-git checkout-b [branchname]
+git checkout -b [branchname]
+```
+* remote브런치 가져오기
+```
+$ git branch -a
+$ git checkout -b [branch name] origin/[remote branch name]
 ```
 
 ### branch 삭제
