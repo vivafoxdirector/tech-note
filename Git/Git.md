@@ -13,6 +13,13 @@ git commit -m "initial commit"
 git clone [리모트 레포지토리 주소]
 ```
 
+## 로컬 레포지토리에 리모트 바인딩
+```
+git remote add origin https://VivaFoxdirector@bitbucket.org/VivaFoxdirector/testste.git
+```
+
+
+
 ## 파일 업데이트 기본 순서
 * 파일 추가
 * 파일 커밋
@@ -234,7 +241,6 @@ git fetch origin
 git reset --hard origin/master
 ```
 
-
 ### origin에 있는 소스 반영
 ```
 git fetch
@@ -339,9 +345,25 @@ git ls-remote --tags
 git branch -r
 ```
 
+### origin branch clone
+```
+git clone -b [branchname] [remote repositor]
+```
+
+* error
+fatal: The remote end hung up unexpectedly
+
+* resolve
+postBuffer 크기를 늘려서 해야 한다고 한다.
+```
+git clone --global http.postBuffer 1048576000
+```
+* ref
+https://stackoverflow.com/questions/6842687/the-remote-end-hung-up-unexpectedly-while-git-cloning
+
 ### origin branch checkout
 ```
-git branch -r
+git branch -r (or git branch -a)
 git checkout -b [branchname] [origin/branchname]
 ```
 
@@ -382,6 +404,7 @@ git stash list             // 일시 보존 파일 리스트 확인
 git pull                   // remote 에서 가져오기
 git stash pop              // 최신 작업 공간에 되돌린다.
 ```
+
 
 ## REF
 - 내용: git config
