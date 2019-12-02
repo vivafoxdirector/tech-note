@@ -29,7 +29,7 @@ Ctrl + Shift + L
 ## 빠른 열기 및 커맨드 패널
 |내용|단축키|
 |-|-|
-|빠른 열기 기능|(Win) Ctrl + P<br>(Mac)Command + P|
+|파일 검색(빠른열기)|(Win) Ctrl + P<br>(Mac)Command + P|
 |커맨드 패널|(Win)Ctrl + Shift + P or F1<br>(Mac) Command + Shift + P or F1|
 
 ## Editor

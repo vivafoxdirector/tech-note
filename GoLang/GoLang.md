@@ -115,6 +115,19 @@ GOPATH를 확인한다.
 GOPATH=$HOME/go
 ```
 
+## 에러
+(XOS 업그래이드후) Visual Studio Code 에서 Debug Start할 때 오류가 난다
+* 이슈
+```
+debugserver or lldb-server not found: install XCode's command line tools or lldb-server
+or
+could not launch process: exec: "lldb-server": executable file not found in $PATH
+```
+* 해결
+```
+xcode-select --install
+```
+
 # 참조사이트
 * [Go言語の基礎〜Go 1.11 開発環境構築とパッケージバージョン管理〜](https://re-engines.com/2018/10/09/go言語の基礎〜go-1-11-パッケージ管理システムと開発環/)
 * [go1.11のmodulesの使い方について](https://qiita.com/yagi5/items/82989a5ecda70a614c27)
