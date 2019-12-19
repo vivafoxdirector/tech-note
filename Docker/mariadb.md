@@ -14,7 +14,7 @@ docker run -d --name <name> \
              -ti dtanakax/mariadb
 
 > 
-docker run -d --name astrondb \
+sudo docker run -d --name astrondb \
              -p 3306:3306 \
              -v /tmp/mariadb:/var/lib/mysql \
              -e ROOT_PASSWORD="root" \
@@ -23,6 +23,10 @@ docker run -d --name astrondb \
              -e DB_PASSWORD="astron" \
              -ti dtanakax/mariadb
 
+
+docker run --name astrondb -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mariadb:tag
+docker run --name astrondb -e MYSQL_ROOT_PASSWORD=mariadb -p 3306:3306 -d mariadb:10.1.16
+
 ```
 * 컨테이너 진입
 ```
@@ -30,6 +34,11 @@ $ docker exec -ti <name> bash
 $ docker exec -ti <name> /bin/bash
 ```
 
+* Util 인스툴
+```
+// ps
+$ apt-get update && apt-get install procps
+```
 
 # 참고사이트
 - [dtanakax/docker-mariadb](https://github.com/dtanakax/docker-mariadb)

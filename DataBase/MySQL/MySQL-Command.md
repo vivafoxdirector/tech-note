@@ -39,46 +39,69 @@ mysql> show databases;
 mysql> use hogedb;
 ```
 
-## 테이블 조작
-### 테이블 만들기
+## 테이블 컨트롤
+1. 테이블 만들기
 ```
 mysql> create table testtbl(num int, name varchar(50));
 mysql> show tables;
 ```
 
-### 테이블 삭제
+2. 테이블 삭제
 ```
 mysql> drop table testtbl;
 mysql> show tables;
 ```
 
-## 데이터 조작
-### 데이터 입력
+3. 데이터 입력
 ```
 mysql> insert into testtbl values(1, 'hogehoge');
 mysql> select * from testtbl;
 ```
-
-### 데이터 업데이트
+4. 데이터 업데이트
 ```
 mysql> update testtbl set name='higehige' where num = 1;
 mysql> select * from testtbl;
 ```
 
-### 데이터 삭제
+5. 데이터 삭제
 ```
 mysql> delete from testtbl where num = 1;
 mysql> select * from testtbl;
 ```
 
-### 현재 실행중인 SQL표시
+6. 현재 실행중인 SQL표시
 ```
 mysql> show processlist;
 ```
 
-### 인덱스 조회
+7. 인덱스 조회
 ```
 mysql> show index from 테이블명;
+```
+
+## 테이블 수정
+1. 테이블 명 변경
+```
+RENAME TABLE [변경전 테이블명] TO [변경후 테이블명]
+=> RENAME TABLE table1 TO table2;
+=> RENAME TABLE table3 TO table4, table2 TO table3, table1 TO table2;
+```
+
+2. 컬럼명 수정
+```
+ALTER TABLE tbl_name CHANGE [COLUMN] old_col_name new_col_name column_definition
+=> alter table staff change id staffid bigint unique;
+```
+
+3. 컬럼 삭제
+```
+ALTER TABLE tbl_name DROP [COLUMN] col_name
+=> alter table staff drop col_name
+```
+
+3. 컬럼 정의 수정
+```
+ALTER TABLE tbl_name MODIFY [COLUMN] col_name column_definition
 ```
 
 ## GRANT 권한
@@ -151,3 +174,9 @@ root> service mysql start
 ```
 mysql> grant all privileges on DBNAME.* to USERNAME@'%' identified by 'PASSWORD'; <-- 해당 유저에 권한을 지정해주어야함.
 ```
+
+
+
+# 참조사이트
+- [テーブル構造を変更する(ALTER TABLE文)](https://www.dbonline.jp/mysql/table/index18.html)
+- [MySQLでテーブル名を変更する「RENAME TABLE」](https://uxmilk.jp/50822)
