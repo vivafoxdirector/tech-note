@@ -87,19 +87,29 @@ RENAME TABLE [변경전 테이블명] TO [변경후 테이블명]
 => RENAME TABLE table3 TO table4, table2 TO table3, table1 TO table2;
 ```
 
-2. 컬럼명 수정
+2. 컬럼 추가
+```sql
+-- 컬럼추가
+ALTER TABLE [table name] ADD [column name] [column type];
+-- 위치 지정 추가
+ALTER TABLE [table name] ADD [column name] [column type] AFTER [추가컬럼 바로 앞의 컬럼명지정];
+
+alter table juve add mid_name varchar(25) after fir_name;
+```
+
+3. 컬럼명 수정
 ```
 ALTER TABLE tbl_name CHANGE [COLUMN] old_col_name new_col_name column_definition
 => alter table staff change id staffid bigint unique;
 ```
 
-3. 컬럼 삭제
+4. 컬럼 삭제
 ```
 ALTER TABLE tbl_name DROP [COLUMN] col_name
 => alter table staff drop col_name
 ```
 
-3. 컬럼 정의 수정
+5. 컬럼 정의 수정
 ```
 ALTER TABLE tbl_name MODIFY [COLUMN] col_name column_definition
 ```

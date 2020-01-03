@@ -17,3 +17,23 @@ $ show databases;
 - [MySQLにおけるテーブル名の大文字／小文字区別について](https://wd3ie.hatenadiary.org/entry/20110309/1299647373)
 - [MariaDBで大文字・小文字の区別をしているか確認する](http://osprey-jp.hatenablog.com/entry/2017/06/02/092419)
 - []
+
+|TYPE|SIZE(byte）|최대치
+|-|-|-|
+(Signed/Unsigned)	最大値
+(Signed/Unsigned)
+TINYINT	1	-128
+0	127
+255
+SMALLINT	2	-32768
+0	32767
+65535
+MEDIUMINT	3	-8388608
+0	8388607
+16777215
+INT	4	-2147483648
+0	2147483647
+4294967295
+BIGINT	8	-9223372036854775808
+0	9223372036854775807
+18446744073709551615
