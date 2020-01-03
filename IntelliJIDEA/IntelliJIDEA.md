@@ -11,8 +11,6 @@ shift + ctrl(cmd) + T
 
 
 
-
-
 ■ 동영상 
 참조 : https://www.youtube.com/watch?v=5IAahr4TU5Y
 참조 : https://www.youtube.com/watch?v=3Euo6xzCwY4
@@ -35,7 +33,6 @@ Ctrl + F8
 F8
 
 3. ForceStepOver
-
 
 
 1.화면확대
