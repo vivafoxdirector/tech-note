@@ -23,9 +23,18 @@ sudo docker run -d --name astrondb \
              -e DB_PASSWORD="astron" \
              -ti dtanakax/mariadb
 
-
 docker run --name astrondb -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mariadb:tag
 docker run --name astrondb -e MYSQL_ROOT_PASSWORD=mariadb -p 3306:3306 -d mariadb:10.1.16
+
+```sql
+$ grant all privileges on astrondb.* to astron@localhost identified by 'astron';
+$ grant all privileges on astrondb.* to astron@'%' identified by 'astron';
+$ select user, host, password from mysql.user;
+$ quit
+$ mysql -u hogehoge -phogehoge
+$ create database astrondb;
+$ show databases;
+```
 
 ```
 * 컨테이너 진입

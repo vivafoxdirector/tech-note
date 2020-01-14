@@ -11,12 +11,13 @@ $ create database hogedb;
 $ show databases;
 ```
 
+
+
 > SOURCE $경로$/cretab.sql
 
 # 대소문자 구분 없이 가능하도록 
 - [MySQLにおけるテーブル名の大文字／小文字区別について](https://wd3ie.hatenadiary.org/entry/20110309/1299647373)
 - [MariaDBで大文字・小文字の区別をしているか確認する](http://osprey-jp.hatenablog.com/entry/2017/06/02/092419)
-- []
 
 |TYPE|SIZE(byte）|최대치
 |-|-|-|
