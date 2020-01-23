@@ -9,6 +9,11 @@ $ quit
 $ mysql -u hogehoge -phogehoge
 $ create database hogedb;
 $ show databases;
+
+
+$ grant all privileges on astrondb.* to astron@localhost identified by 'astron';
+$ grant all privileges on astrondb.* to astron@'%' identified by 'astron';
+
 ```
 
 
@@ -18,6 +23,34 @@ $ show databases;
 # 대소문자 구분 없이 가능하도록 
 - [MySQLにおけるテーブル名の大文字／小文字区別について](https://wd3ie.hatenadiary.org/entry/20110309/1299647373)
 - [MariaDBで大文字・小文字の区別をしているか確認する](http://osprey-jp.hatenablog.com/entry/2017/06/02/092419)
+
+
+
+
+cat <<EOF > test
+line1
+line2
+line3
+EOF
+
+
+[mysqld]
+bind-address = 0.0.0.0
+console = 1
+general_log = 1
+general_log_file = /var/log/mariadb/mariadb.log
+log_error = /var/log/mariadb/error.log
+collation-server = utf8_unicode_ci
+character-set-server = utf8
+datadir = /var/lib/mysql
+lower_case_table_names=1
+
+[mysqld_safe]
+log_error = /var/log/mariadb/error.log
+
+
+
+
 
 |TYPE|SIZE(byte）|최대치
 |-|-|-|
