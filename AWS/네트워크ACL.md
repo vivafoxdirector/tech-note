@@ -70,3 +70,7 @@ VPC에 대한 네트워크 ACL만들기
 - [CreateNetworkAclEntry](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateNetworkAclEntry.html)
 - [API](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/ec2/AmazonEC2.html#createNetworkAclEntry-com.amazonaws.services.ec2.model.CreateNetworkAclEntryRequest-)
 - [Example](https://docs.aws.amazon.com/ja_jp/sdkfornet/v3/apidocs/items/EC2/MEC2CreateNetworkAclEntryCreateNetworkAclEntryRequest.html)
+
+
+## 자동NACL부여하기 블로그
+- [AWS에서 네트워크 공격 자동차단 하기](http://woowabros.github.io/security/2018/02/23/aws-auto-security1.html)
