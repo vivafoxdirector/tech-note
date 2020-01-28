@@ -1,4 +1,9 @@
 # Network ACL 제어
+NACL 룰 규칙 개수는 인바운드 20개, 아웃바운드 20개까지 입력이 가능하다.
+```
+API 오류 메시지
+The maximum number of network acl entries has been reached.
+```
 
 ## 네트워크 ACL 확인(필터)
 ```
@@ -13,6 +18,11 @@ After you add an entry, you can't modify it; you must either replace it, or crea
 $ aws ec2 create-network-acl-entry --network-acl-id acl-5fb85d36 --ingress --rule-number 100 --protocol udp --port-range From=53,To=53 --cidr-block 0.0.0.0/0 --rule-action allow
 
 $ aws ec2 create-network-acl-entry --network-acl-id acl-07a73a4670ecc60db --ingress --rule-number 130 --protocol tcp --port-range From=9090,To=9090 --cidr-block 0.0.0.0/0 --rule-action allow
+
+$ aws ec2 create-network-acl-entry --network-acl-id acl-0021a5439745e848c --ingress --rule-number 130 --protocol tcp --port-range From=9090,To=9090 --cidr-block 0.0.0.0/0 --rule-action allow
+
+프로토콜은 tcp, udp등 문자열도 되고, 번호도 된다. (번호로 해야할 듯하다)
+$ aws ec2 create-network-acl-entry --network-acl-id acl-0021a5439745e848c --ingress --rule-number 140 --protocol 6 - -port-range From=9090,To=9090 --cidr-block 0.0.0.0/0 --rule-action allow
 ```
 - AWS규칙 여러건 추가는 아직 안됨.
 - AWS규칙에 rule-number 100이 이미 있으면 오류가 난다.
