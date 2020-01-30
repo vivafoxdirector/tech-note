@@ -56,6 +56,8 @@ VPC에 대한 네트워크 ACL만들기
 
 네트워크 ACL 규칙 추가
 * [create-network-acl-entry](https://docs.aws.amazon.com/cli/latest/reference/ec2/create-network-acl-entry.html)
+* [CreateNetworkAclEntry](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateNetworkAclEntry.html)
+* [Interface AmazonEC2 - Ver 1.0](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/ec2/AmazonEC2.html#createNetworkAclEntry-com.amazonaws.services.ec2.model.CreateNetworkAclEntryRequest-)
 
 네트워크 ACL 규칙 삭제
 * [delete-network-acl-entry](https://docs.aws.amazon.com/cli/latest/reference/ec2/delete-network-acl-entry.html)
@@ -74,7 +76,7 @@ VPC에 대한 네트워크 ACL만들기
 - [](https://qiita.com/t-fujiwara/items/835cccbef7ec6d199251)
 
 ## NACL 제어(블로그)
-- [http://kimutansk.hatenablog.com/entry/2015/09/23/081022](http://kimutansk.hatenablog.com/entry/2015/09/23/081022)
+- [AWS NACLの設定をCLIから行ってみた](http://kimutansk.hatenablog.com/entry/2015/09/23/081022)
 
 ## NACL 제어 API
 - [CreateNetworkAclEntry](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateNetworkAclEntry.html)
