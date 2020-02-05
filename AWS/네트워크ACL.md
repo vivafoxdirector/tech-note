@@ -59,11 +59,11 @@ VPC에 대한 네트워크 ACL만들기
 * [CreateNetworkAclEntry](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateNetworkAclEntry.html)
 * [Interface AmazonEC2 - Ver 1.0](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/ec2/AmazonEC2.html#createNetworkAclEntry-com.amazonaws.services.ec2.model.CreateNetworkAclEntryRequest-)
 
-네트워크 ACL 규칙 삭제
-* [delete-network-acl-entry](https://docs.aws.amazon.com/cli/latest/reference/ec2/delete-network-acl-entry.html)
-
 네트워크 ACL 규칙 기존 규칙 바꾸기
 * [replace-network-acl-entry](https://docs.aws.amazon.com/cli/latest/reference/ec2/replace-network-acl-entry.html)
+
+네트워크 ACL 규칙 삭제
+* [delete-network-acl-entry](https://docs.aws.amazon.com/cli/latest/reference/ec2/delete-network-acl-entry.html)
 
 네트워크 ACL 연결 바꾸기
 * [replace-network-acl-association](https://docs.aws.amazon.com/cli/latest/reference/ec2/replace-network-acl-association.html)

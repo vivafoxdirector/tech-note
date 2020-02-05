@@ -184,9 +184,8 @@ root> service mysql start
 ```
 mysql> grant all privileges on DBNAME.* to USERNAME@'%' identified by 'PASSWORD'; <-- 해당 유저에 권한을 지정해주어야함.
 ```
-
-
-
 # 참조사이트
 - [テーブル構造を変更する(ALTER TABLE文)](https://www.dbonline.jp/mysql/table/index18.html)
 - [MySQLでテーブル名を変更する「RENAME TABLE」](https://uxmilk.jp/50822)
+## JOIN
+- [【INNER JOIN, LEFT JOIN , RIGHT JOIN】テーブル結合の挙動をまとめてみた【SQL】](https://qiita.com/ngron/items/db4947fb0551f21321c0)
