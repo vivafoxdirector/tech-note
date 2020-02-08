@@ -134,6 +134,24 @@ mysql> REVOKE 삭제할권한 ON 대상(데이터베이스명.*) FROM 유저명;
 ```
 
 ## MySQL 트러블 슈팅
+
+### 프로세스 보기
+```
+> show processlist;
+```
+
+### 프로세스 목록 출력
+```
+select concat('KILL ',id,';') from information_schema.processlist where user='astron' limit 5000;
+```
+
+### 프로세스 죽이기
+```
+kill [번호];
+> kill 30;
+```
+
+
 ### 데이터 베이스 백업
 ```
 #> mysqldump -u [mysql user] -p[user password] [Redmine데이터베이스명] > [백업파일명]
@@ -184,8 +202,18 @@ root> service mysql start
 ```
 mysql> grant all privileges on DBNAME.* to USERNAME@'%' identified by 'PASSWORD'; <-- 해당 유저에 권한을 지정해주어야함.
 ```
+
+### 백업
+* 특정 데이타 베이스 덤프
+```
+mysqldump --single-transaction -u [DB유저명] -p [DB명] > [출력 파일명]
+> mysqldump --single-transaction -u astron -p astrondb > astrondb.dump
+```
+
 # 참조사이트
 - [テーブル構造を変更する(ALTER TABLE文)](https://www.dbonline.jp/mysql/table/index18.html)
 - [MySQLでテーブル名を変更する「RENAME TABLE」](https://uxmilk.jp/50822)
 ## JOIN
 - [【INNER JOIN, LEFT JOIN , RIGHT JOIN】テーブル結合の挙動をまとめてみた【SQL】](https://qiita.com/ngron/items/db4947fb0551f21321c0)
+## DELETE
+- [DELETE文の書き方：サンプル多数あり](https://oreno-it.info/archives/2282)
