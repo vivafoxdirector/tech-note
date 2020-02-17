@@ -11,6 +11,8 @@ $ create database hogedb;
 $ show databases;
 
 
+> mysql
+
 $ grant all privileges on astrondb.* to astron@localhost identified by 'astron';
 $ grant all privileges on astrondb.* to astron@'%' identified by 'astron';
 
@@ -28,8 +30,7 @@ line1
 line2
 line3
 EOF
-
-
+# vi  /etc/my.cnf.d/server.cnf
 [mysqld]
 bind-address = 0.0.0.0
 console = 1
@@ -64,3 +65,7 @@ INT	4	-2147483648
 BIGINT	8	-9223372036854775808
 0	9223372036854775807
 18446744073709551615
+
+# 트러블슈팅
+* 외부접속이 가능하도록 권한을 부여한다.
+- [MySQL を外部接続できるようにする](http://yosugi.hatenablog.jp/entry/2013/06/23/185240)

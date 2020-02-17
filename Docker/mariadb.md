@@ -31,7 +31,7 @@ $ grant all privileges on astrondb.* to astron@localhost identified by 'astron';
 $ grant all privileges on astrondb.* to astron@'%' identified by 'astron';
 $ select user, host, password from mysql.user;
 $ quit
-$ mysql -u hogehoge -phogehoge
+$ mysql -u astron -pastron
 $ create database astrondb;
 $ show databases;
 ```
