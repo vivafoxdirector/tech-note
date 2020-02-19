@@ -66,6 +66,20 @@ BIGINT	8	-9223372036854775808
 0	9223372036854775807
 18446744073709551615
 
+## recursive with 구문
+탐색기 부모 또는 자식 리스트 취득
+- [木構造の親または子を再帰的に取得する](https://qiita.com/neko_the_shadow/items/d401e0c23892b0d53c2a)
+
+
 # 트러블슈팅
 * 외부접속이 가능하도록 권한을 부여한다.
 - [MySQL を外部接続できるようにする](http://yosugi.hatenablog.jp/entry/2013/06/23/185240)
+
+# 참조사이트
+* Recursive(With구문)
+- [木構造の親または子を再帰的に取得する](https://qiita.com/neko_the_shadow/items/d401e0c23892b0d53c2a)
+- [[PostgreSQL 8.4+] WITH RECURSIVEの動作を理解する](https://qiita.com/anqooqie/items/fac5aeb74169f1634c87)
+- [PostgreSQL Recursive Queries](https://medium.com/@josephharwood_62087/postgresql-recursive-queries-610a16e772b8)
+- [A Definitive Guide To MySQL Recursive CTE](https://www.mysqltutorial.org/mysql-recursive-cte/)
+- [WITH問い合わせ（共通テーブル式）](https://www.postgresql.jp/document/9.6/html/queries-with.html)
+- [WITH RECURSIVEの使用](https://qiita.com/SE-studying-now/items/18a7c1305f552718cec0)

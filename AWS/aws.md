@@ -6,7 +6,10 @@
 # EC2
 ## Instance
 1. 상태
+- [InstanceState](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_InstanceState.html)
 - [Class InstanceState](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/ec2/model/InstanceState.html#setCode-java.lang.Integer-)
+2. 라이프 사이클
+- [インスタンスのライフサイクル](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)
 
 # Region
 ## 설명서
