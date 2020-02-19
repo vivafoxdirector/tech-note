@@ -33,52 +33,61 @@ Ctrl + Shift + L
 |커맨드 패널|(Win)Ctrl + Shift + P or F1<br>(Mac) Command + Shift + P or F1|
 
 ## Editor
-### Editor확장
+* Editor확장
 ```
 win: Ctrl + b
 mac: Cmd + b
 ```
 
-### 탐색기
+* 탐색기
 ```
 win: Ctrl + Shift + e
 mac: Cmd + Shift + e
 ```
 
-### 에디터 탭 이동
+* 에디터 탭 이동
 ```
 win: Ctrl + [Shift] + Tab
 mac: Ctrl + [Shift] + Tab
 ```
 
 ## 선택
-### 단어선택
+* 단어선택
 ```
 Ctrl + d
 ```
 
-### 행 선택 아래로
+* 행 선택 아래로
 ```
 Ctrl + L
 ```
 
-### 선택범위 확대/축소
+* 선택범위 확대/축소
 ```
 Shift + Alt + -> / <-
 ```
 
 ## 복수선택
-### 멀티커서
+* 멀티커서
 ```
 Alt + Ctrl + 위/아래
 ```
 
 ## 검색
-### 에디터내 검색
+* 에디터내 검색
+```
 Ctrl + f
+```
 
-### 에디터내 치환
+* 에디터내 치환
+```
 Ctrl + h
+```
+
+* 파일검색
+```
+Ctrl + P
+```
 
 
 # 참조사이트
