@@ -151,7 +151,6 @@ kill [번호];
 > kill 30;
 ```
 
-
 ### 데이터 베이스 백업
 ```
 #> mysqldump -u [mysql user] -p[user password] [Redmine데이터베이스명] > [백업파일명]
@@ -210,6 +209,12 @@ mysqldump --single-transaction -u [DB유저명] -p [DB명] > [출력 파일명]
 > mysqldump --single-transaction -u astron -p astrondb > astrondb.dump
 ```
 
+### Host is not allowed to connect to this MySQL server
+* 외부접속 가능하도록 권한 부여
+```
+GRANT ALL PRIVILEGES ON *.* TO root@'192.168.%' IDENTIFIED BY 'root패스워드' WITH GRANT OPTION;
+> GRANT ALL PRIVILEGES ON *.* TO root@'192.168.%' IDENTIFIED BY 'root' WITH GRANT OPTION;
+```
 # 참조사이트
 - [テーブル構造を変更する(ALTER TABLE文)](https://www.dbonline.jp/mysql/table/index18.html)
 - [MySQLでテーブル名を変更する「RENAME TABLE」](https://uxmilk.jp/50822)
@@ -217,3 +222,7 @@ mysqldump --single-transaction -u [DB유저명] -p [DB명] > [출력 파일명]
 - [【INNER JOIN, LEFT JOIN , RIGHT JOIN】テーブル結合の挙動をまとめてみた【SQL】](https://qiita.com/ngron/items/db4947fb0551f21321c0)
 ## DELETE
 - [DELETE文の書き方：サンプル多数あり](https://oreno-it.info/archives/2282)
+
+## 외부접속 권한부여
+- [MySQL を外部接続できるようにする](http://yosugi.hatenablog.jp/entry/2013/06/23/185240)
+- [外部データベースサーバの追加時に "Host is not allowed to connect to this MySQL server" というエラーが発生します](https://support.plesk.com/hc/ja/articles/213361969--%E5%A4%96%E9%83%A8%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%B5%E3%83%BC%E3%83%90%E3%81%AE%E8%BF%BD%E5%8A%A0%E6%99%82%E3%81%AB-Host-is-not-allowed-to-connect-to-this-MySQL-server-%E3%81%A8%E3%81%84%E3%81%86%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%8C%E7%99%BA%E7%94%9F%E3%81%97%E3%81%BE%E3%81%99)

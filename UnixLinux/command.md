@@ -12,6 +12,12 @@ $> du -sk /opt
 $> du -m | egrep -v /.+/
 ```
 
+# wget
+* 디렉토리 지정
+```
+wget http://xxx.com/hoge.tar.gz -P /tmp
+```
+- [wgetの使い方いろいろ](https://qiita.com/katsukii/items/ef251830776cbe108cfb)
 
 # curl
 1. [curl コマンド 使い方メモ](https://qiita.com/yasuhiroki/items/a569d3371a66e365316f)
@@ -22,11 +28,7 @@ $> du -m | egrep -v /.+/
 2. [jq コマンドの Linux への速攻インストール](https://qiita.com/wnoguchi/items/70a808a68e60651224a4)
 1. [jq コマンドを使う日常のご紹介](https://qiita.com/takeshinoda@github/items/2dec7a72930ec1f658af)
 
-
 # 참고
 * 내용: 디렉토리 용량
   * 참조: http://d.hatena.ne.jp/aix_memo/20090206/1233886385
 - [初心者向けシェルスクリプトの基本コマンドの紹介](https://qiita.com/zayarwinttun/items/0dae4cb66d8f4bd2a337)
-
-
-
