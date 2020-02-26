@@ -27,13 +27,14 @@ docker run --name astrondb -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mariadb:tag
 docker run --name astrondb -e MYSQL_ROOT_PASSWORD=mariadb -p 3306:3306 -d mariadb:10.1.16
 
 ```sql
-$ grant all privileges on astrondb.* to astron@localhost identified by 'astron';
-$ grant all privileges on astrondb.* to astron@'%' identified by 'astron';
-$ select user, host, password from mysql.user;
-$ quit
-$ mysql -u astron -pastron
-$ create database astrondb;
-$ show databases;
+> mysql -u root -proot
+grant all privileges on astrondb.* to astron@localhost identified by 'astron';
+grant all privileges on astrondb.* to astron@'%' identified by 'astron';
+select user, host, password from mysql.user;
+quit
+mysql -u astron -pastron
+create database astrondb;
+show databases;
 ```
 
 ```
@@ -49,5 +50,16 @@ $ docker exec -ti <name> /bin/bash
 $ apt-get update && apt-get install procps
 ```
 
+* 스키마 대소문자 구분없이 (for Docker) 
+```
+cd /etc/mysql
+
+```
+
+
 # 참고사이트
 - [dtanakax/docker-mariadb](https://github.com/dtanakax/docker-mariadb)
+
+# 대소문자 구분 없이 가능하도록 
+- [MySQLにおけるテーブル名の大文字／小文字区別について](https://wd3ie.hatenadiary.org/entry/20110309/1299647373)
+- [MariaDBで大文字・小文字の区別をしているか確認する](http://osprey-jp.hatenablog.com/entry/2017/06/02/092419)
