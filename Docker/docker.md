@@ -147,6 +147,9 @@ docker rmi [IMAGE_ID]
 * 컨테이너명 바꾸기
 > docker rename [현재컨테이너명] [바꿀컨테이너명]
 
+## 로그
+* 컨테이너 로그
+> docker logs [Container Name]
 ## 컨테이너 <-> 호스트
 * 컨테이너 -> 호스트로 파일 카피
 ```
