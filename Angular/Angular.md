@@ -43,4 +43,9 @@ ng -v
 ng serve
 ```
 
-[ng serveでモジュールがないというエラー（Error: Cannot find module '@angular-devkit/core'）](http://lighthouse-dev.hatenablog.com/entry/2018/03/21/205300)
+- [ng serveでモジュールがないというエラー（Error: Cannot find module '@angular-devkit/core'）](http://lighthouse-dev.hatenablog.com/entry/2018/03/21/205300)
+
+
+# 참조사이트
+1. Apache2 연동시 404에러
+- [Angularで作ったアプリをApacheサーバーにUPして公開する](https://qiita.com/agajo/items/d355b1fd54a35749d49e)
