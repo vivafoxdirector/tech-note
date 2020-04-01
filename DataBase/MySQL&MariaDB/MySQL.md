@@ -91,6 +91,7 @@ BIGINT	8	-9223372036854775808
 - [ユーザー定義変数](https://dev.mysql.com/doc/refman/5.6/ja/user-variables.html)
 
 * 날짜계산 및 날짜 출력 & 달력 만들기
+- [月末の日付を取得する](http://mysql.javarou.com/dat/000849.html)
 - [【MySQL】日時の計算（加算・減算）](https://qiita.com/azusanakano/items/f33bce0664d851a88666)
 - [SQLを使って日別で集計する](https://blog.ch3cooh.jp/entry/20140113/1389588740)
 - [会員数の推移を把握したい場合の例](https://kanetann.hatenablog.com/entry/2014/10/23/182440)
