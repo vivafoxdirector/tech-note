@@ -43,5 +43,8 @@ db.log_hfwall.aggregate(
 ```
 
 # 참고사이트
+* 기초
+- [MongoDB コマンドメモとか書き](https://qiita.com/svjunic/items/285e9cf20169d70aa1fa)
+
 - [](https://stackoverflow.com/questions/18896470/converting-isodate-to-numerical-value)
 - [](https://docs.mongodb.com/manual/reference/operator/aggregation/dateFromString/)
