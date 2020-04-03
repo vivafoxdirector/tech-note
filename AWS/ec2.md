@@ -11,3 +11,6 @@
 - [IAM ユーザーのアクセスを特定の Amazon EC2 リソースに制限できますか?](https://aws.amazon.com/jp/premiumsupport/knowledge-center/restrict-ec2-iam/)
 - [AWS CLI または AWS SDK で使用するサンプルポリシー](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/ExamplePolicies_EC2.html#iam-example-runinstances)
 
+
+## 예제
+- [StartStopInstance.java](https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/java/example_code/ec2/src/main/java/aws/example/ec2/StartStopInstance.java)
