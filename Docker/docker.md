@@ -147,6 +147,9 @@ docker rmi [IMAGE_ID]
 * 컨테이너명 바꾸기
 > docker rename [현재컨테이너명] [바꿀컨테이너명]
 
+## 로그
+* 컨테이너 로그
+> docker logs [Container Name]
 ## 컨테이너 <-> 호스트
 * 컨테이너 -> 호스트로 파일 카피
 ```
@@ -316,5 +319,7 @@ file: /AGENT_TP_TEST.jmx 을 아래와 같이 수정한다.
 4) JMeter Start 버튼 클릭
 
 # 참고사이트
+- [How to Install Docker CE on CentOS 8 / RHEL 8](https://www.linuxtechi.com/install-docker-ce-centos-8-rhel-8/) <==
 - [Install Docker on CentOS 7](https://qiita.com/ymasaoka/items/b6c3ffea060bcd237478)
 - [Installing Docker on CentOS 8](https://www.vadmin-land.com/2019/09/installing-docker-on-centos-8/)
+

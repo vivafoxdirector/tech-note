@@ -83,3 +83,29 @@ BIGINT	8	-9223372036854775808
 - [A Definitive Guide To MySQL Recursive CTE](https://www.mysqltutorial.org/mysql-recursive-cte/)
 - [WITH問い合わせ（共通テーブル式）](https://www.postgresql.jp/document/9.6/html/queries-with.html)
 - [WITH RECURSIVEの使用](https://qiita.com/SE-studying-now/items/18a7c1305f552718cec0)
+
+* Timezone 변경
+- [MySQLのTimeZoneをJSTからUTCに変更する](https://qiita.com/saicologic/items/4bc72dc53f25412ca112)
+
+* 사용자 변수
+- [ユーザー定義変数](https://dev.mysql.com/doc/refman/5.6/ja/user-variables.html)
+
+* 날짜계산 및 날짜 출력 & 달력 만들기
+- [月末の日付を取得する](http://mysql.javarou.com/dat/000849.html)
+- [【MySQL】日時の計算（加算・減算）](https://qiita.com/azusanakano/items/f33bce0664d851a88666)
+- [SQLを使って日別で集計する](https://blog.ch3cooh.jp/entry/20140113/1389588740)
+- [会員数の推移を把握したい場合の例](https://kanetann.hatenablog.com/entry/2014/10/23/182440)
+- [MySQL 日時ごとの集計まとめ](https://qiita.com/yakatsuka/items/2906011803500ebd4390)
+- [SQL Server 日付と時刻の関数一覧](https://johobase.com/sqlserver-datetime-function/)
+- [MySQLでの日付型の加算と減算](https://qiita.com/sakura1116/items/3fef2ca5b5280eae22e8)
+- [データを期間別に集計する](http://skill-note.net/post-405/)
+- [「状態遷移図の書き方」と「状態遷移表からのテスト抽出方法」](https://www.wakuwakubank.com/posts/290-design-state/)
+- [SQLでカレンダーを取得する (WITH CTE) [SQLServer, MySQL]](https://johobase.com/select-calendar-sql/)
+- [SELECT文だけでカレンダーデータを作成する](https://sqlite-date.com/calendar)
+- [SQL Server でカレンダーテーブルを作る方法](https://www.kwbtblog.com/entry/2019/06/27/003656)
+- [日付範囲から日ごとのデータを作成する](https://sql55.com/query/date-range-to-list-of-dates.php)
+- [MySQLでカレンダーテーブルを作る](https://kuniaki12.hatenablog.com/entry/2017/08/17/122826)
+- [MySQL クエリで連続した日付の仮想表を作成する](https://symfoware.blog.fc2.com/blog-entry-1713.html)
+- [MySQLで当月のカレンダーを作成する方法](https://lightgauge.net/database/mysql/5402/)
+
+

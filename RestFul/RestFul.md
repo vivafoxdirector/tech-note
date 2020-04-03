@@ -4,7 +4,7 @@
 
 1. 동사를 사용하지 않고 명사(복수형)를 사용한다.
 ```
-NG: localhost:9090/getMembers
+NG: localhost:9090/getMembers   
 OK: localhost:9090/members
 ```
 2. Camel or Snake 표기를 한다.
