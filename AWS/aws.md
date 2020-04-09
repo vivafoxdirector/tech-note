@@ -1,3 +1,14 @@
+
+# CloudFormation
+## CloudFormation 기본 작성방법 <==
+- [【CloudFormation入門】5分と6行で始めるAWS CloudFormationテンプレートによるインフラ構築](https://dev.classmethod.jp/cloud/aws/cloudformation-beginner01/)
+
+## IAM 롤
+- [【AWS】CloudFormationでIAM RoleのPolicy定義に変数を用いる【小ネタ】](https://qiita.com/tmiki/items/5ffcc09a20fb49478835)
+
+## EC2 
+- [AWS CloudFormationでEC2を構築](https://qiita.com/tyoshitake/items/c5176c0ef4de8d7cf5d8)
+
 # SG
 ## Ingress
 1. 추가
@@ -15,6 +26,9 @@
 ## 설명서
 - [리전, 가용 영역 및 로컬 영역](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)
 
+
+
+
 # 참조사이트
 1. VPC 제어
 - [VPC作成](https://qiita.com/tcsh/items/41e1aa3c77c469c92e84)
@@ -27,6 +41,9 @@
 - [Enabling Seamless Security and Compliance with Sumo Logic and AWS Security Hub](https://aws.amazon.com/ko/blogs/apn/enabling-seamless-security-and-compliance-with-sumo-logic-and-aws-security-hub/)
 - [AWS Security Hub](https://aws.amazon.com/jp/security-hub/)
 
+<<<<<<< HEAD
 4. Monitoring
 - [GitHub Sigar](https://github.com/hyperic/sigar)
 - [ホスト メトリクス ソース](https://help.sumologic.jp/03Send-Data/Sources/01Sources-for-Installed-Collectors/Host-Metrics-Source)
+=======
+>>>>>>> 3da435adae3a677adda5379cd258beee1dfc6ff0
