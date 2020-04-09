@@ -41,9 +41,6 @@
 - [Enabling Seamless Security and Compliance with Sumo Logic and AWS Security Hub](https://aws.amazon.com/ko/blogs/apn/enabling-seamless-security-and-compliance-with-sumo-logic-and-aws-security-hub/)
 - [AWS Security Hub](https://aws.amazon.com/jp/security-hub/)
 
-<<<<<<< HEAD
 4. Monitoring
 - [GitHub Sigar](https://github.com/hyperic/sigar)
 - [ホスト メトリクス ソース](https://help.sumologic.jp/03Send-Data/Sources/01Sources-for-Installed-Collectors/Host-Metrics-Source)
-=======
->>>>>>> 3da435adae3a677adda5379cd258beee1dfc6ff0
