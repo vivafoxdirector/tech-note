@@ -23,5 +23,10 @@
 - [awscliを使って、VPC向けsecurity groupを作成する](https://reiki4040.hatenablog.com/entry/2014/08/31/200001)
 - [[aws cli]セキュリティグループへ一時的にパブリックIPアドレスを追加/削除するスクリプト](https://dev.classmethod.jp/cloud/aws/aws-cli-temporary-allow-access-script/)
 
+3. Security Hub
+- [Enabling Seamless Security and Compliance with Sumo Logic and AWS Security Hub](https://aws.amazon.com/ko/blogs/apn/enabling-seamless-security-and-compliance-with-sumo-logic-and-aws-security-hub/)
+- [AWS Security Hub](https://aws.amazon.com/jp/security-hub/)
 
-
+4. Monitoring
+- [GitHub Sigar](https://github.com/hyperic/sigar)
+- [ホスト メトリクス ソース](https://help.sumologic.jp/03Send-Data/Sources/01Sources-for-Installed-Collectors/Host-Metrics-Source)
