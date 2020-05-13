@@ -12,6 +12,11 @@ $ aws ec2 describe-network-acls --filters Name=vpc-id,Values=vpc-5af90631
 ```
 
 ## 네트워크 ACL 규측 추가
+- AWS규칙 여러건 추가는 아직 안됨.
+- aws_cli를 통해서 AWS규칙에 rule-number 100이 이미 있으면 오류가 나지만, SDK에서는 나지 않는다.
+- AWS규칙에 rule-number 는 겹치지 않고 정보가 다른 룰과 같다면 추가는 된다.
+
+
 After you add an entry, you can't modify it; you must either replace it, or create an entry and delete the old one. (추가후 수정은 안되고, 치환하거나 새로 추가하거나 삭제를 해야한다)
 
 ```
@@ -23,10 +28,11 @@ $ aws ec2 create-network-acl-entry --network-acl-id acl-0021a5439745e848c --ingr
 
 프로토콜은 tcp, udp등 문자열도 되고, 번호도 된다. (번호로 해야할 듯하다)
 $ aws ec2 create-network-acl-entry --network-acl-id acl-0021a5439745e848c --ingress --rule-number 140 --protocol 6 - -port-range From=9090,To=9090 --cidr-block 0.0.0.0/0 --rule-action allow
+
+$ aws ec2 create-network-acl-entry --network-acl-id acl-0b4a4b4092295d2e4 --ingress --rule-number 102 --protocol udp --port-range From=53,To=53 --cidr-block 0.0.0.0/0 --rule-action allow
 ```
-- AWS규칙 여러건 추가는 아직 안됨.
-- AWS규칙에 rule-number 100이 이미 있으면 오류가 난다.
-- AWS규칙에 rule-number 는 겹치지 않고 정보가 다른 룰과 같다면 추가는 된다.
+
+
 
 ## 네트워크 ACL 규칙 수정
 기존의 룰 규칙 번호 수정이다.
@@ -35,6 +41,7 @@ $ aws ec2 replace-network-acl-entry --network-acl-id acl-5fb85d36 --ingress --ru
 
 $ aws ec2 replace-network-acl-entry --network-acl-id acl-07a73a4670ecc60db --ingress --rule-number 100 --protocol tcp --port-range From=8080,To=8080 --cidr-block 0.0.0.0/0 --rule-action allow
 ```
+
 
 ## 네트워크 ACL 규칙 삭제
 ```
