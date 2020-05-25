@@ -93,3 +93,17 @@ LoadModule rewrite_module modules/mod_rewrite.so
 - [Optimal htaccess file for angular apps](https://gist.github.com/julianpoemp/bcf277cb56d2420cc53ec630a04a3566)
 - [.htaccess - Angular 2をApacheサーバーにデプロイする](https://tutorialmore.com/questions-1719808.htm)
 - [Angularで作ったアプリをApacheサーバーにUPして公開する](https://qiita.com/agajo/items/d355b1fd54a35749d49e)
+
+## Cookie
+- [【Angular】HttpInterceptorの実装(Cookieベースセッション編)] (https://kakkoyakakko2.hatenablog.com/entry/2018/05/30/080000)
+- [Spring Security + Angular 6 설정하기](https://bigzero37.tistory.com/54)
+- [Cookieベースのセッション管理を実施](https://kakkoyakakko2.hatenablog.com/entry/2018/05/29/215409)
+- [SPRING SECURITY BASIC with ANGULAR](https://m.blog.naver.com/PostView.nhn?blogId=neem693&logNo=221651325719&proxyReferer=https:%2F%2Fwww.google.co.jp%2F)
+
+## CORS
+- [Spring SecurityでCORSの設定を行う](https://tomokazu-kozuma.com/configure-cors-with-spring-security/)
+- [AngularとSpring Bootで作るSPA + RESTful Web Serviceアプリケーション](https://www.slideshare.net/ssuser070fa9/angularspring-bootspa-restful-web-service)
+
+## Spring Boot + Angular
+- [Basic Authentication with Angular 7 and Spring Security](https://medium.com/@mind_sFlight/basic-authentication-with-angular-7-and-spring-security-6fd140efc031#8057)
+- [AngularとSpring Bootで作るSPA + RESTful Web Serviceアプリケーション](https://www.slideshare.net/ssuser070fa9/angularspring-bootspa-restful-web-service)
