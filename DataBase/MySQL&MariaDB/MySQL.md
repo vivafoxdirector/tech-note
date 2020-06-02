@@ -108,4 +108,6 @@ BIGINT	8	-9223372036854775808
 - [MySQL クエリで連続した日付の仮想表を作成する](https://symfoware.blog.fc2.com/blog-entry-1713.html)
 - [MySQLで当月のカレンダーを作成する方法](https://lightgauge.net/database/mysql/5402/)
 
-
+* EXISTS
+- [SQL select文のinとexistsの違いがわかっていなかった問題](https://qiita.com/darkimpact0626/items/5a5d03c27ae7c849566f)
+- [5分でわかる！ EXISTSでサブクエリを扱う方法](https://www.sejuku.net/blog/73615)
