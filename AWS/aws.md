@@ -28,6 +28,24 @@
 
 
 
+# Instance에 파일 올리기
+## local => Bastion
+```shell
+scp -i [pem파일경로] [업로드할 파일 이름] [ec2-user계정명]@[ec2 instance의 public DNS]:~/[경로]
+ex> scp -i d:\bastion.pem [경로/파일명] ec2-user@13.125.211.36:~/[경로/파일명]
+```
+
+## Bastion => Server
+```shell
+scp -i [pem파일경로] [업로드할 파일 이름] [ec2-user계정명]@[ec2 instance의 public DNS]:~/[경로]
+ex> scp -i d:\bastion.pem [경로/파일명] ec2-user@13.125.211.36:~/[경로/파일명]
+```
+
+# Instance연결
+## Bastion => Server
+```
+ssh -i demo.pem centos@192.168.218.38
+```
 
 # 참조사이트
 1. VPC 제어
