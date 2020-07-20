@@ -18,6 +18,23 @@ $> du -m | egrep -v /.+/
 curl -X POST -H "Content-Type: application/json" -d '{"Name":"sensuikan1973", "Age":"100"}' localhost:8080/api/v1/users
 ```
 
+* POST HEADER
+curl -X POST -H "Content-Type: application/json" -F 'q={"key":{"code":"auth"},"value":[{"agent_dt":"2020-06-10 17:51:19","cyper_suite_id":"","host_nw_private_ip_addr":"192.168.218.38","lic_id":"11","lic_type":"1","lic_cnt":"1000","version":"0.9.1","ni_dtl_mac":"0a:2e:c6:fa:11:90","sub_dtl_cidr":"172.31.0.0/16"}]}' localhost:8080/agent/auth.ona
+
+curl -X POST -F 'q={"key":{"code":"auth"},"value":[{"agent_dt":"2020-06-10 17:51:19","cyper_suite_id":"","host_nw_private_ip_addr":"172.31.47.251","lic_id":"11","lic_type":"1","lic_cnt":"1000","version":"0.9.1","ni_dtl_mac":"0a:47:8e:9b:fb:4e","sub_dtl_cidr":"172.31.0.0/16"}]}' localhost:8080/agent/auth.ona
+
+
+
+curl -X POST -F 'q={"key":{"code":"auth"},"value":[{"agent_dt":"2020-06-10 17:51:19","cyper_suite_id":"","host_nw_private_ip_addr":"192.168.218.180","lic_id":"11","lic_type":"1","lic_cnt":"1000","version":"0.9.1","ni_dtl_mac":"0a:2e:c6:fa:11:90","sub_dtl_cidr":"172.31.0.0/16"}]}' 192.168.218.38:7080/agent/auth.ona
+
+
+curl -X POST http://192.168.218.38:7080/agent/auth.ona
+
+
+curl http://192.168.218.38:7080/agent/auth.ona
+
+```
+
 # wget
 * 디렉토리 지정
 ```

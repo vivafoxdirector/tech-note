@@ -1,3 +1,12 @@
+# EC2 제어
+
+## EC2 상태 확인
+```
+aws ec2 describe-instance-status --instance-id i-06e031f2fe9bb288d
+```
+
+
+
 # 참조사이트
 * EC2상태값
 - [InstanceState](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_InstanceState.html)
