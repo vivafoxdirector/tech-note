@@ -12,6 +12,12 @@ $> du -sk /opt
 $> du -m | egrep -v /.+/
 ```
 
+# curl
+* POST
+```
+curl -X POST -H "Content-Type: application/json" -d '{"Name":"sensuikan1973", "Age":"100"}' localhost:8080/api/v1/users
+```
+
 # wget
 * 디렉토리 지정
 ```
