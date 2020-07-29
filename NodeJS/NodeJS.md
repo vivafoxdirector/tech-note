@@ -1,5 +1,31 @@
 # Node JS
 
+## 설치
+1. NVM 을 이용한 설치
+```
+$> nvm ls-remote
+$> nvm install [version]
+$> nvm install stable --latest-npm
+$> nvm alias default stable
+```
+버전확인
+```
+$> node -v?
+```
+버전변경
+```
+$> nvm ls
+$> nvm use [version]
+```
+2. npm 최신버전 설치
+
+```
+$> npm update -g npm
+```
+버전확인
+```
+$> npm -v
+```
 # Console
 
 # 참조사이트
