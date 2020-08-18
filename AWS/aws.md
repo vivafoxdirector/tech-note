@@ -28,6 +28,24 @@
 
 
 
+# Instance에 파일 올리기
+## local => Bastion
+```shell
+scp -i [pem파일경로] [업로드할 파일 이름] [ec2-user계정명]@[ec2 instance의 public DNS]:~/[경로]
+ex> scp -i d:\bastion.pem [경로/파일명] ec2-user@13.125.211.36:~/[경로/파일명]
+```
+
+## Bastion => Server
+```shell
+scp -i [pem파일경로] [업로드할 파일 이름] [ec2-user계정명]@[ec2 instance의 public DNS]:~/[경로]
+ex> scp -i d:\bastion.pem [경로/파일명] ec2-user@13.125.211.36:~/[경로/파일명]
+```
+
+# Instance연결
+## Bastion => Server
+```
+ssh -i demo.pem centos@192.168.218.38
+```
 
 # 참조사이트
 1. VPC 제어
@@ -37,4 +55,10 @@
 - [awscliを使って、VPC向けsecurity groupを作成する](https://reiki4040.hatenablog.com/entry/2014/08/31/200001)
 - [[aws cli]セキュリティグループへ一時的にパブリックIPアドレスを追加/削除するスクリプト](https://dev.classmethod.jp/cloud/aws/aws-cli-temporary-allow-access-script/)
 
+3. Security Hub
+- [Enabling Seamless Security and Compliance with Sumo Logic and AWS Security Hub](https://aws.amazon.com/ko/blogs/apn/enabling-seamless-security-and-compliance-with-sumo-logic-and-aws-security-hub/)
+- [AWS Security Hub](https://aws.amazon.com/jp/security-hub/)
 
+4. Monitoring
+- [GitHub Sigar](https://github.com/hyperic/sigar)
+- [ホスト メトリクス ソース](https://help.sumologic.jp/03Send-Data/Sources/01Sources-for-Installed-Collectors/Host-Metrics-Source)

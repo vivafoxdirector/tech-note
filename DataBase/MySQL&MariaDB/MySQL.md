@@ -75,6 +75,10 @@ BIGINT	8	-9223372036854775808
 * 외부접속이 가능하도록 권한을 부여한다.
 - [MySQL を外部接続できるようにする](http://yosugi.hatenablog.jp/entry/2013/06/23/185240)
 
+* Illegal mix of collations 해결방법
+- [mysql error, 1267 Illegal mix of collations 해결방법](https://blog.boxcorea.com/wp/archives/2685)
+- [MySQL の "Illegal mix of collations" エラーについて](https://tmtms.hatenablog.com/entry/2013/04/11/mysql_Illegal_mix_of_collations)
+
 # 참조사이트
 * Recursive(With구문)
 - [木構造の親または子を再帰的に取得する](https://qiita.com/neko_the_shadow/items/d401e0c23892b0d53c2a)
@@ -107,5 +111,9 @@ BIGINT	8	-9223372036854775808
 - [MySQLでカレンダーテーブルを作る](https://kuniaki12.hatenablog.com/entry/2017/08/17/122826)
 - [MySQL クエリで連続した日付の仮想表を作成する](https://symfoware.blog.fc2.com/blog-entry-1713.html)
 - [MySQLで当月のカレンダーを作成する方法](https://lightgauge.net/database/mysql/5402/)
+
+* EXISTS
+- [SQL select文のinとexistsの違いがわかっていなかった問題](https://qiita.com/darkimpact0626/items/5a5d03c27ae7c849566f)
+- [5分でわかる！ EXISTSでサブクエリを扱う方法](https://www.sejuku.net/blog/73615)
 
 

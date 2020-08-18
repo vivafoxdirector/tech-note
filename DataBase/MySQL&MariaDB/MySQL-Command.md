@@ -140,6 +140,9 @@ mysql> REVOKE 삭제할권한 ON 대상(데이터베이스명.*) FROM 유저명;
 > show processlist;
 ```
 
+### Lock 목록 출력
+SELECT * FROM information_schema.innodb_locks;
+
 ### 프로세스 목록 출력
 ```
 select concat('KILL ',id,';') from information_schema.processlist where user='astron' limit 5000;
