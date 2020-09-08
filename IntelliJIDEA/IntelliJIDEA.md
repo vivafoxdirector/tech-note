@@ -207,3 +207,10 @@ File -> Project Structure -> Artifacts 에서 alt + Insert 또는 '+'아이콘�
 
 참조 : http://xyk.hatenablog.com/entry/2013/12/18/093256
 
+
+
+# 트러블슈팅
+- [Cannot find declaration to go to というエラー](https://ryu-go.hatenablog.com/entry/2018/05/08/111257)
+```
+File > Invalidate Caches / Restart 
+```

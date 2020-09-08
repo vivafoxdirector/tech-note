@@ -10,7 +10,7 @@ $> nvm alias default stable
 ```
 버전확인
 ```
-$> node -v?
+$> node -v
 ```
 버전변경
 ```
