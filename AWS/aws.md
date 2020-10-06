@@ -27,6 +27,9 @@
 - [리전, 가용 영역 및 로컬 영역](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)
 
 
+# Lambda
+- [AWS Lambda소개영상](https://www.youtube.com/watch?v=z6hXBiz0ywM&ab_channel=AmazonWebServices)
+- [AWS Lambda](https://www.youtube.com/watch?v=Hr6ZIvXSZpw)
 
 # Instance에 파일 올리기
 ## local => Bastion
