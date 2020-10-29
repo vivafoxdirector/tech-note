@@ -386,6 +386,13 @@ git branch <-- branch 리스트 보기
 git branch -d [BRANCHNAME]
 git push origin :[BRANCHNAME]
 ```
+### remote branch 삭제
+```
+git branch -r
+git push --delete origin branch_name 
+git push origin :branch_name <-- 또는 
+```
+
 
 ## Git stash
 
