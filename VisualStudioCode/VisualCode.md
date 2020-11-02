@@ -89,6 +89,11 @@ Ctrl + h
 Ctrl + P
 ```
 
+* 파일내 찾기
+```
+Ctrl + Shift + F
+```
+
 
 # 참조사이트
 [VS Code の便利なショートカットキー](https://qiita.com/12345/items/64f4372fbca041e949d0)
