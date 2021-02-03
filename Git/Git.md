@@ -48,6 +48,9 @@ git commit -v                   // 변경지점을 표시하고 커밋
 ```
 git reset --soft HEAD~2         // 최근 커밋부분에서 이전 커밋 2번째 지점으로 이동??
 git reset --hard HEAD~2         // 최근 커밋부분에서 이전 커밋 2번째 지점으로 이동??
+
+git log                         // 되돌릴 지점 해시값 확인
+git reset --hard [HASH]         // 되돌릴 해시값을 지정하여 되돌린다.
 ```
 
 ## git reset ??
