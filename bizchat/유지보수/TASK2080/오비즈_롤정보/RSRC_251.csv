@@ -1,0 +1,186 @@
+1,NULL,서비스 Dashboard,Dashboard,/dashboard,P,ADMIN,1,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+2,NULL,My Profile,My Profile,/myprofile/detail,P,ADMIN,2,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+3,2,My Profile 수정,My Profile > My Profile 수정,/myprofile/modify,P,ADMIN,1,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+4,NULL,메시지 관리 & 통계,메시지 관리 & 통계,NULL,M,ADMIN,1,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+5,NULL,고객사 관리,고객사 관리,NULL,M,ADMIN,2,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+6,NULL,운영 관리,운영 관리,NULL,M,ADMIN,3,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+7,NULL,과금 현황,과금 현황,/billing/all,M,ADMIN,4,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+8,NULL,서비스 관리,서비스 관리,NULL,M,ADMIN,5,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+9,NULL,관리자 관리,관리자 관리,NULL,M,ADMIN,6,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+13,4,통계,메시지 관리 & 통계 > 통계,/stat/ar,M,ADMIN,5,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+21,5,고객사 관리,고객사 관리 > 고객사 관리,NULL,M,ADMIN,1,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+22,21,고객사 조회,고객사 관리 > 고객사 관리 > 고객사 조회,/customer/list,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+23,21,고객사 등록,고객사 관리 > 고객사 관리 > 고객사 등록,/customer/regist,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+25,6,공지사항 관리,운영 관리 > 공지사항 관리,NULL,M,ADMIN,2,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+26,6,FAQ 관리,운영 관리 > FAQ 관리,NULL,M,ADMIN,3,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+29,25,공지사항 조회,운영 관리 > 공지사항 관리 > 공지사항 조회,/noti/list,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+30,25,공지사항 등록,운영 관리 > 공지사항 관리 > 공지사항 등록,/noti/regist,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+31,26,FAQ 조회,운영 관리 > FAQ 관리 > FAQ 조회,/faq/list,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+32,26,FAQ 등록,운영 관리 > FAQ 관리 > FAQ 등록,/faq/regist,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+34,8,CID 관리,서비스 관리 > CID 관리,NULL,M,ADMIN,1,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+36,34,CID 조회,서비스 관리 > CID 관리 > CID 조회,/msgserver/list,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+37,34,CID 등록,서비스 관리 > CID 관리 > CID 등록,/msgserver/regist,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+40,9,관리자 관리,관리자 & 권한 관리 > 관리자 관리,NULL,M,ADMIN,1,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+42,40,관리자 조회,관리자 & 권한 관리 > 관리자 관리 > 관리자 조회,/user/admin,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+43,40,관리자 등록,관리자 & 권한 관리 > 관리자 관리 > 관리자 등록,/user/admin/create,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+49,12,메시지 발송 저장,메시지 관리 & 통계 > 메시지 발송 > 메시지 발송 저장,/notiMate/sendMsg,F,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+50,22,고객사 상세정보,고객사 관리 > 고객사 관리 > 고객사 상세정보,/customer/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+51,23,특번 조회,고객사 관리 > 고객사 관리 > 고객사 등록 > 특번 조회,/customer/searchSpc,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+52,23,access키 encry키 생성,고객사 관리 > 고객사 관리 > 고객사 등록 > access키 encry키 생성,/customer/getKey,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+53,23,고객정보 수정,고객사 관리 > 고객사 관리 > 고객사 등록 > 고객정보 수정,/customer/saveCustomerInfo,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+54,23,고객정보 첨부파일 다운로드,고객사 관리 > 고객사 관리 > 고객사 등록 > 고객정보 첨부파일 다운로드,/customer/registFileDown,F,ADMIN,4,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+55,23,특번목록조회,고객사 관리 > 고객사 관리 > 고객사 등록 > 특번목록조회,/customer/searchSpcNumList,F,ADMIN,5,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+56,29,공지사항 상세정보,운영 관리 > 공지사항 관리 > 공지사항 조회 > 공지사항 상세정보,/noti/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+57,30,공지사항 저장,운영 관리 > 공지사항 관리 > 공지사항 등록 > 공지사항 저장,/noti/registSave,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+58,30,공지사항정보 삭제,운영 관리 > 공지사항 관리 > 공지사항 삭제,/noti/removeNoti,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+59,30,공지사항정보 첨부파일 다운로드,운영 관리 > 공지사항 관리 > 공지사항 등록 > 공지사항정보 첨부파일 다운로드,/noti/attachDownload,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+60,31,FAQ 상세정보,운영 관리 > FAQ 관리 > FAQ 조회 > FAQ 상세정보,/faq/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+61,32,FAQ 저장,운영 관리 > FAQ 관리 > FAQ 등록 > FAQ 저장,/faq/registSave,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+62,32,FAQ정보 삭제,운영 관리 > FAQ 관리 > FAQ 등록 > FAQ정보 삭제,/faq/removeFaq,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+63,32,FAQ정보 첨부파일 다운로드,운영 관리 > FAQ 관리 > FAQ 등록 > FAQ정보 첨부파일 다운로드,/faq/attachDownload,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+64,27,통신사 휴대 전화 상세,운영 관리 > 통신사 관리 > 휴대전화 조회 > 통신사 휴대 전화 상세,/device/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+65,27,통신사 휴대 전화 저장,운영 관리 > 통신사 관리 > 휴대전화 조회 > 통신사 휴대 전화 저장,/device/save,F,ADMIN,4,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+66,27,통신사 휴대 전화 삭제,운영 관리 > 통신사 관리 > 휴대전화 조회 > 통신사 휴대 전화 삭제,/device/delete,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+67,27,휴대전화번호 체크,운영 관리 > 통신사 관리 > 휴대전화 조회 > 휴대전화번호 체크,/device/checkMdn,F,ADMIN,4,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+68,36,CID 상세정보,서비스 관리 > CID 관리 > CID 조회 > CID 상세정보,/msgserver/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+69,37,CID 저장,서비스 관리 > CID 관리 > CID 등록 > CID 저장,/msgserver/save,F,ADMIN,4,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+70,42,관리자 상세정보,관리자 & 권한 관리 > 관리자 관리 > 관리자 조회 > 관리자 상세정보,/user/admin/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+71,42,관리자 저장,관리자 & 권한 관리 > 관리자 관리 > 관리자 조회 > 관리자 저장,/user/admin/save,F,ADMIN,2,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+72,42,관리자 삭제,관리자 & 권한 관리 > 관리자 관리 > 관리자 조회 > 관리자 삭제,/user/admin/del,F,ADMIN,3,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+75,22,고객목록 엑셀 다운로드,고객사 관리 > 고객사 관리 > 고객사 조회 > 고객목록 엑셀 다운로드,/customer/customerListExcelDown,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+76,32,카테고리목록 조회,운영 관리 > FAQ 관리 > FAQ 등록 > 카테고리목록 조회,/faq/getCateList,F,ADMIN,4,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+77,2,My Profile 비밀번호 체크,My Profile >My Profile 비밀번호 체크,/myprofile/checkPasswd,F,ADMIN,2,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+78,2,My Profile 비밀번호 변경,My Profile >My Profile 비밀번호 변경,/myprofile/changePasswd,F,ADMIN,3,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+79,2,My Profile 정보 저장,My Profile >My Profile 정보 저장,/myprofile/save,F,ADMIN,4,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+81,36,CID 엑셀다운로드,서비스 관리 > CID 관리 > CID 조회 > CID 엑셀다운로드,/msgserver/downloadExcel,F,ADMIN,2,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+91,23,"담당자 아이디, 이메일 중복체크","고객사 관리 > 고객사 관리 > (고객사 등록, 고객사 조회) > 담당자 추가 팝업",/customer/checkContactDupleData,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+92,6,1:1문의 관리,운영 관리 > 1:1문의 관리,/qna/list,M,ADMIN,4,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+93,92,1:1문의 상세정보,운영 관리 > 1:1문의 관리 > 1:1문의 상세정보,/qna/detail,P,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+94,92,1:1문의 삭제,운영 관리 > 1:1문의 관리 > 1:1문의 삭제,/qna/del,F,ADMIN,1,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+95,92,1:1문의 수정,운영 관리 > 1:1문의 관리 > 1:1문의 수정,/qna/modify,F,ADMIN,1,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+96,6,다운로드 관리,운영 관리 > 다운로드 관리,/downloadMgmt/list,M,ADMIN,5,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+97,96,다운로드 상세정보,운영 관리 > 다운로드 관리 > 다운로드 상세정보,/downloadMgmt/detail,P,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+98,96,다운로드 추가,운영 관리 > 다운로드 관리 > 다운로드 추가,/downloadMgmt/regist,P,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+99,96,다운로드 저장/수정,운영 관리 > 다운로드 관리 > 다운로드 저장/수정,/downloadMgmt/registSave,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+100,97,파일 다운로드,운영 관리 > 다운로드 관리 > 다운로드 상세 > 파일 다운로드,/downloadMgmt/attachDownload,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+101,6,이벤트 관리,운영 관리 > 이벤트관리,NULL,M,ADMIN,6,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+102,101,이벤트 조회,운영 관리 > 이벤트관리 > 이벤트 조회,/eventMgmt/list,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+103,101,이벤트 등록,운영 관리 > 이벤트관리 > 이벤트 등록,/eventMgmt/regist,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+104,102,이벤트 상세정보,운영 관리 > 이벤트관리 > 이벤트 상세정보,/eventMgmt/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+105,101,다운로드 저장/수정,운영 관리 > 이벤트 관리 > 이벤트 저장/수정,/eventMgmt/registSave,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+106,104,파일 다운로드,운영 관리 > 이벤트 관리 > 이벤트 상세 > 파일 다운로드,/eventMgmt/attachDownload,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+107,96,다운로드 목록 삭제,운영 관리 > 다운로드 관리 > 다운로드 목록 삭제,/downloadMgmt/remove,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+110,23,시스템 연동 상태 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > 시스템 연동 상태 수정,/customer/modifySystemIntfState,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+111,23,고객사 담당자 정보 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > 고객사 담당자 정보 수정,/customer/saveContactInfo,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+112,23,API 연동 정보 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > API 연동 정보 수정,/customer/saveApiIntfInfo,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+113,23,허용 서버 정보 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > 허용 서버 정보 수정,/customer/saveCrmClientInfo,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+114,23,고객사 서버 정보 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > 고객사 서버 정보 수정,/customer/saveCrmServerInfo,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+115,23,API 권한 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > API 권한 수정,/customer/saveApiRoleMapp,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+137,23,가입 상태 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > 가입 상태 수정,/customer/saveJoinState,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+141,23,탈퇴 승인,고객사 관리 > 고객사 관리 > 고객사 조회 > 탈퇴 승인,/customer/saveLeaveState,F,ADMIN,4,5,Y,NULL,2017-08-19 19:29:02,INIT,INIT,2017-08-19 19:29:02,INIT,INIT
+142,42,임시 비밀번호 발급,관리자 & 권한 관리 > 관리자 관리 > 관리자 조회 > 관리자 상세 -> 임시 비밀번호 발급,/user/admin/pwcreate,P,ADMIN,1,1,Y,NULL,2017-08-25 21:31:27,INIT,INIT,2017-08-25 21:31:27,INIT,INIT
+143,22,임시 비밀번호 발급,고객사 관리 > 고객사 관리 > 고객사 조회 > 상세정보 -> 임시 비밀번호 발급,/customer/pwcreate,P,ADMIN,1,4,Y,NULL,2017-08-25 21:31:31,INIT,INIT,2017-08-25 21:31:31,INIT,INIT
+144,25,엑셀 다운로드,운영 관리 > 공지사항 관리 > 엑셀 다운로드,/noti/notiExcelDownload,F,ADMIN,3,3,Y,NULL,2017-09-04 15:40:38,INIT,INIT,2017-09-04 15:40:38,INIT,INIT
+145,23,사업자등록번호 중복 확인,고객사 관리 > 고객사 관리 > 고객사 등록 > 사업자등록번호 중복 확인,/customer/checkBizRegNum,F,ADMIN,5,5,Y,NULL,2017-09-04 18:30:35,INIT,INIT,2017-09-04 18:30:35,INIT,INIT
+152,7,전체 과금 현황,과금 현황 -> 전체 과금 현황,/billing/all,M,ADMIN,1,2,Y,NULL,2017-10-18 21:44:49,INIT,INIT,2017-10-18 21:44:49,INIT,INIT
+153,7,상품 과금 현황,과금 현황 -> 상품 과금 현황,/billing/prod/all,M,ADMIN,2,2,Y,NULL,2017-10-18 21:44:49,INIT,INIT,2017-10-18 21:44:49,INIT,INIT
+155,152,엑셀 리포트 다운로드,과금 현황 -> 전체 과금 현황 > 엑셀 리포트 다운로드,/billing/all/excel,F,ADMIN,1,3,Y,NULL,2017-10-18 21:44:49,INIT,INIT,2017-10-18 21:44:49,INIT,INIT
+164,153,상품 변경 이력,상품 변경 이력,/billing/prod/histAjax,P,ADMIN,1,3,Y,NULL,2017-10-18 21:44:49,INIT,INIT,2017-10-18 21:44:49,INIT,INIT
+169,153,상품 변경 이력 > 엑셀 리포트 다운로드,상품 변경 이력 > 엑셀 리포트 다운로드,/billing/prod/hist/excel,F,ADMIN,1,3,Y,NULL,2017-10-18 21:44:49,INIT,INIT,2017-10-18 21:44:49,INIT,INIT
+180,8,상품 관리,서비스 관리 > 상품 관리,NULL,M,ADMIN,3,2,Y,NULL,2017-10-18 21:51:15,INIT,INIT,2017-10-18 21:51:15,INIT,INIT
+182,180,체험 상품 관리,서비스 관리 > 상품 관리 > 체험 상품 관리,/chargeMgmt/freeChargeUsingList,M,ADMIN,2,3,Y,NULL,2017-10-18 21:51:15,INIT,INIT,2017-10-18 21:51:15,INIT,INIT
+183,182,체험 상품 등록,서비스 관리 > 상품 관리 > 체험 상품 관리 > 체험 상품 등록,/chargeMgmt/saveFreeCharge,F,ADMIN,1,4,Y,NULL,2017-10-18 21:51:15,INIT,INIT,2017-10-18 21:51:15,INIT,INIT
+184,182,체험 상품 이용 고객사 엑셀다운로드,서비스 관리 > 상품 관리 > 체험 상품 관리 > 체험 상품 이용 고객사 엑셀다운로드,/chargeMgmt/freeChargeUsingListExcel,F,ADMIN,2,4,Y,NULL,2017-10-18 21:51:15,INIT,INIT,2017-10-18 21:51:15,INIT,INIT
+186,180,상품 변경 이력,서비스 관리 > 상품 관리 > 상품 변경 이력,/chargeMgmt/chargeHistList,M,ADMIN,3,3,Y,NULL,2017-10-18 21:44:49,INIT,INIT,2017-10-18 21:44:49,INIT,INIT
+187,180,상품 변경 이력 > 엑셀 리포트 다운로드,서비스 관리 > 상품 관리 > 상품 변경 이력 > 엑셀 리포트 다운로드,/chargeMgmt/chargeHistListExcel,F,ADMIN,3,3,Y,NULL,2017-10-18 21:51:57,INIT,INIT,2017-10-18 21:51:57,INIT,INIT
+188,182,체험 상품 해지,서비스 관리 > 상품 관리 > 체험 상품 관리 > 체험 상품 해지,/chargeMgmt/stopFreeCharge,F,ADMIN,3,4,Y,NULL,2017-10-18 21:51:15,INIT,INIT,2017-10-18 21:51:15,INIT,INIT
+190,101,이벤트 상세정보 수정,운영 관리 > 이벤트관리 > 이벤트 상세정보 수정,/eventMgmt/modify,P,ADMIN,2,3,Y,NULL,2017-10-26 21:54:17,INIT,INIT,2017-10-26 21:54:17,INIT,INIT
+205,2,My Profile 기존 비밀번호 확인,My Profile > My Profile 기존 비밀번호 확인,/myprofile/checkOriginPassword,F,ADMIN,5,2,Y,NULL,2017-11-14 00:40:41,INIT,INIT,2017-11-14 00:40:41,INIT,INIT
+229,21,휴면계정 관리,고객사 관리 > 고객사 관리 > 휴면계정 관리,/inactive/list,M,ADMIN,3,3,Y,NULL,2018-04-23 19:45:58,INIT,INIT,2018-04-23 19:45:58,INIT,INIT
+230,229,휴면계정 회사 상세정보,고객사 관리 > 고객사 관리 > 휴면계정 관리 > 휴면계정 회사 상세정보,/inactive/detail/customer,P,ADMIN,1,4,Y,NULL,2018-04-23 19:46:00,INIT,INIT,2018-04-23 19:46:00,INIT,INIT
+231,229,휴면계정 Excel 다운로드,고객사 관리 > 고객사 관리 > 휴면계정 관리 > 휴면계정 Excel 다운로드,/inactive/customerListExcelDown,F,ADMIN,2,4,Y,NULL,2018-04-23 19:46:01,INIT,INIT,2018-04-23 19:46:01,INIT,INIT
+232,229,휴면계정 상세 팝업,고객사 관리 > 고객사 관리 > 휴면계정 관리 > 휴면계정 상세 팝업,/inactive/detail/account,F,ADMIN,3,4,Y,NULL,2018-04-23 19:46:02,INIT,INIT,2018-04-23 19:46:02,INIT,INIT
+233,229,휴면 해제,고객사 관리 > 고객사 관리 > 휴면계정 관리 > 휴면 해제,/inactive/revoke,F,ADMIN,4,4,Y,NULL,2018-04-23 19:46:04,INIT,INIT,2018-04-23 19:46:04,INIT,INIT
+235,23,중계사 별 딜러사 조회,고객사 관리 > 고객사 등록,/customer/dlcList,F,ADMIN,2,2,Y,NULL,2018-05-04 00:00:00,INIT,INIT,2018-05-04 00:00:00,INIT,INIT
+237,8,설문 관리,서비스 관리 > 설문 관리,NULL,M,ADMIN,5,2,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+238,237,설문 승인,서비스 관리 > 설문 관리 > 설문 승인,/survey/reqlist,M,ADMIN,1,3,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+239,237,설문 조회,서비스 관리 > 설문 관리 > 설문 조회,/survey/list,M,ADMIN,2,3,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+269,7,딜러사 과금 현황,과금 현황 > 딜러사 과금 현황,NULL,M,ADMIN,4,2,Y,NULL,2018-06-07 00:00:00,INIT,INIT,2018-06-07 00:00:00,INIT,INIT
+270,269,상품 과금 현황,과금 현황 > 딜러사 과금 현황 > 상품 과금 현황,/billing/prod/deal/all,M,ADMIN,1,3,Y,NULL,2018-06-07 00:00:00,INIT,INIT,2018-06-07 00:00:00,INIT,INIT
+289,NULL,엑셀 다운로드함,엑셀 다운로드함,/user/download/list,P,ADMIN,1,1,Y,NULL,2018-09-27 00:10:00,INIT,INIT,2018-09-27 00:10:00,INIT,INIT
+290,289,엑셀 다운로드,엑셀 다운로드함 > 엑셀 다운로드,/user/download/result,F,ADMIN,1,2,Y,NULL,2018-10-05 00:00:00,INIT,INIT,2018-10-05 00:00:00,INIT,INIT
+2020,651,인구통계 분석,통계 > 마케팅비즈챗 > 고객사별 상세 통계 > 고객사별 상세 통계 상세내역 ,/stat/surveyReportAnalysis,P,ADMIN,7,5,Y,NULL,2019-08-26 13:38:56,INIT,INIT,2019-08-26 13:38:56,INIT,INIT
+2021,651,인구통계 분석,통계 > 마케팅비즈챗 > 고객사별 상세 통계 > 고객사별 상세 통계 상세내역 ,/stat/surveyReportAnalysis/downloadExcel,F,ADMIN,1,NULL,Y,NULL,2019-08-26 13:39:03,INIT,INIT,2019-08-26 13:39:03,INIT,INIT
+2109,NULL,요청파일 다운로드함,고객사 요청파일 다운로드함,/user/downloadRequest/list,P,ADMIN,10,1,Y,NULL,2019-01-31 20:28:39,INIT,INIT,2019-01-31 20:28:39,INIT,INIT
+2110,2109,고객사 요청파일 다운로드함 > 삭제,고객사 요청파일 다운로드함 > 삭제,/user/downloadRequest/delete,P,ADMIN,10,4,Y,NULL,2019-01-31 20:28:39,INIT,INIT,2019-01-31 20:28:39,INIT,INIT
+2111,2109,고객사 요청파일 다운로드함 > 다운로드,고객사 요청파일 다운로드함 > 다운로드,/user/downloadRequest/download,P,ADMIN,10,4,Y,NULL,2019-01-31 20:35:29,INIT,INIT,2019-01-31 20:35:29,INIT,INIT
+2116,238,설문 타케팅 승인 엑셀 다운로드,서비스 관리 > 설문 관리 > 설문 승인 > 설문 타케팅 승인 엑셀 다운로드,/survey/downloadAppExcel,F,ADMIN,5,4,Y,NULL,2019-07-04 11:26:25,INIT,INIT,2019-07-04 11:26:25,INIT,INIT
+2117,238,테스트 발송,서비스 관리 > 설문 관리 > 설문 승인 > 테스트 발송,/survey/sndTestSurvey,F,ADMIN,5,4,Y,NULL,2019-07-04 11:56:39,INIT,INIT,2019-07-04 11:56:39,INIT,INIT
+2127,238,설문 승인 대상자 업로드 진행현황 조회,서비스 관리 > 설문 관리 > 설문 승인 >  설문 승인 대상자 업로드 진행현황 조회,/survey/checkSurveyCalculateProgress,F,ADMIN,7,4,Y,NULL,2019-08-21 18:47:20,INIT,INIT,2019-08-21 18:47:20,INIT,INIT
+2735,8,발신번호 관리,서비스 관리 > 발신번호 관리,NULL,M,ADMIN,2,2,Y,NULL,2021-02-04 14:50:24,INIT,INIT,2021-02-04 14:50:24,INIT,INIT
+2738,2735,발신번호 조회,서비스 관리 > 발신번호 관리 > 발신번호 조회,/spcNumMgmt/spcNumList,M,ADMIN,2,3,Y,NULL,2021-02-04 14:50:24,INIT,INIT,2021-02-04 14:50:24,INIT,INIT
+2739,2735,발신번호 등록,서비스 관리 > 발신번호 관리 > 발신번호 등록,/spcNumMgmt/registSpcNum,M,ADMIN,3,3,Y,NULL,2021-02-04 14:50:24,INIT,INIT,2021-02-04 14:50:24,INIT,INIT
+2854,7,발신번호 과금 현황,과금 현황 -> 발신번호 과금 현황,/billing/spcnum/all,M,ADMIN,3,2,Y,NULL,2021-02-04 14:50:25,INIT,INIT,2021-02-04 14:50:25,INIT,INIT
+2865,2854,전체 고객사 발신번호,과금 현황 -> 발신번호 과금 현황 -> 전체 고객사 발신번호,/billing/spcnum/all,M,ADMIN,1,3,Y,NULL,2021-02-04 14:50:25,INIT,INIT,2021-02-04 14:50:25,INIT,INIT
+2866,2854,전체 고객사 발신번호 > 엑셀 리포트 다운로드,과금 현황 -> 발신번호 과금 현황 -> 전체 고객사 발신번호 > 엑셀 리포트 다운로드,/billing/spcnum/all/excel,F,ADMIN,2,3,Y,NULL,2021-02-04 14:50:25,INIT,INIT,2021-02-04 14:50:25,INIT,INIT
+2867,2854,고객사별 발신번호,과금 현황 -> 발신번호 과금 현황 -> 고객사별 발신번호,/billing/spcnum/custom,M,ADMIN,2,3,Y,NULL,2021-02-04 14:50:25,INIT,INIT,2021-02-04 14:50:25,INIT,INIT
+2868,2854,고객사별 발신번호 > 엑셀 리포트 다운로드,과금 현황 -> 발신번호 과금 현황 -> 고객사별 발신번호 > 엑셀 리포트 다운로드,/billing/spcnum/custom/excel,F,ADMIN,2,3,Y,NULL,2021-02-04 14:50:25,INIT,INIT,2021-02-04 14:50:25,INIT,INIT
+2870,2735,발신번호 승인,서비스 관리 > 발신번호 관리 > 발신번호 승인,/spcNumMgmt/spcNumReqList,M,ADMIN,1,3,Y,NULL,2021-02-04 14:50:25,INIT,INIT,2021-02-04 14:50:25,INIT,INIT
+2871,2870,발신번호 상세정보,서비스 관리 > 발신번호 관리 > 발신번호 승인 > 발신번호 상세정보,/spcNumMgmt/spcNumReqDetail,P,ADMIN,1,4,Y,NULL,2021-02-04 14:50:25,INIT,INIT,2021-02-04 14:50:25,INIT,INIT
+2872,2870,발신번호 상태 변경,서비스 관리 > 발신번호 관리 > 발신번호 승인 > 발신번호 상태 변경,/spcNumMgmt/modifySpcNumState,F,ADMIN,2,4,Y,NULL,2021-02-04 14:50:25,INIT,INIT,2021-02-04 14:50:25,INIT,INIT
+2873,2738,발신번호 엑셀다운로드,서비스 관리 > 발신번호 관리 > 발신번호 조회 > 발신번호 엑셀다운로드,/spcNumMgmt/spcNumExcel,F,ADMIN,1,4,Y,NULL,2021-02-04 14:50:26,INIT,INIT,2021-02-04 14:50:26,INIT,INIT
+2874,2739,발신번호 저장,서비스 관리 > 발신번호 관리 > 발신번호 등록 > 발신번호 저장,/spcNumMgmt/saveSpcNum,F,ADMIN,1,4,Y,NULL,2021-02-04 14:50:26,INIT,INIT,2021-02-04 14:50:26,INIT,INIT
+2875,2735,발신번호 변경 이력,서비스 관리 > 발신번호 관리 > 발신번호 변경 이력,/spcNumMgmt/spcNumHistList,M,ADMIN,4,3,Y,NULL,2021-02-04 14:50:26,INIT,INIT,2021-02-04 14:50:26,INIT,INIT
+2876,2875,발신번호 이력 엑셀다운로드,서비스 관리 > 발신번호 관리 > 발신번호 변경 이력 > 발신번호 이력 엑셀다운로드,/spcNumMgmt/spcNumHistExcel,F,ADMIN,1,4,Y,NULL,2021-02-04 14:50:26,INIT,INIT,2021-02-04 14:50:26,INIT,INIT
+2877,2735,발신번호 요청 첨부파일 다운로드,서비스 관리 > 발신번호 관리 > 발신번호 요청 첨부파일 다운로드,/spcNumMgmt/attFileDownload,F,ADMIN,5,3,Y,NULL,2021-02-04 14:50:26,INIT,INIT,2021-02-04 14:50:26,INIT,INIT
+2878,2854,발신번호 변경 이력,발신번호 변경 이력,/billing/spcnum/custom/histAjax,F,ADMIN,2,3,Y,NULL,2021-02-04 14:50:26,INIT,INIT,2021-02-04 14:50:26,INIT,INIT
+2879,2854,발신번호 변경 이력 > 엑셀 리포트 다운로드,발신번호 변경 이력 > 엑셀 리포트 다운로드,/billing/spcnum/custom/hist/excel,F,ADMIN,2,3,Y,NULL,2021-02-04 14:50:26,INIT,INIT,2021-02-04 14:50:26,INIT,INIT
+2885,2735,발신번호 변경 이력 > 사유조회,발신번호 변경 이력 > 사유조회,/spcNumMgmt/spcNumHistReasonAjax,F,ADMIN,4,3,Y,NULL,2021-02-04 14:50:27,INIT,INIT,2021-02-04 14:50:27,INIT,INIT
+2889,2738,발신번호 해지,서비스 관리 > 발신번호 관리 > 발신번호 조회 > 발신번호 해지,/spcNumMgmt/closeSpcNum,F,ADMIN,2,4,Y,NULL,2021-02-04 14:50:27,INIT,INIT,2021-02-04 14:50:27,INIT,INIT
+2928,2870,중계사별 고객사 조회,서비스 관리 > 발신번호 관리 > 발신번호 승인 ,/spcNumMgmt/rlc/customlist,F,ADMIN,1,4,Y,NULL,2021-02-04 14:50:27,INIT,INIT,2021-02-04 14:50:27,INIT,INIT
+2936,2870,딜러사별 고객사 조회,서비스 관리 > 발신번호 관리 > 발신번호 승인,/spcNumMgmt/dlc/customlist,F,ADMIN,4,4,Y,NULL,2021-02-04 14:50:27,INIT,INIT,2021-02-04 14:50:27,INIT,INIT
+2940,4,마케팅오비즈,메시지 관리 & 통계 > 설문오비즈,NULL,M,ADMIN,4,2,Y,NULL,2021-02-04 14:50:27,INIT,INIT,2021-02-04 14:50:27,INIT,INIT
+2941,2940,전송완료 메시지 조회,메시지 관리 & 통계 > 설문오비즈 > 전송완료 메시지 조회,/svMate/completeList,M,ADMIN,1,3,Y,NULL,2021-02-04 14:50:27,INIT,INIT,2021-02-04 14:50:27,INIT,INIT
+2942,2940,MT 요청 메시지 조회,메시지 관리 & 통계 > 설문오비즈 > MT 요청 메시지 조회,/svMate/mtList,M,ADMIN,2,3,Y,NULL,2021-02-04 14:50:27,INIT,INIT,2021-02-04 14:50:27,INIT,INIT
+2943,2940,MO 메시지 조회,메시지 관리 & 통계 > 설문오비즈 > MO 메시지 조회,/svMate/moList,M,ADMIN,3,3,Y,NULL,2021-02-04 14:50:28,INIT,INIT,2021-02-04 14:50:28,INIT,INIT
+2944,2940,설문 이력 조회,메시지 관리 & 통계 > 설문오비즈 > 설문 이력 조회,/svMate/surveyHistList,M,ADMIN,4,3,Y,NULL,2021-02-04 14:50:28,INIT,INIT,2021-02-04 14:50:28,INIT,INIT
+2945,2941,전송완료 메시지 상세정보,메시지 관리 & 통계 > 설문오비즈 > 전송완료 메시지 조회 > 전송완료 메시지 상세정보,/svMate/completeDetail,P,ADMIN,1,4,Y,NULL,2021-02-04 14:50:28,INIT,INIT,2021-02-04 14:50:28,INIT,INIT
+2946,2941,전송완료목록 엑셀 다운로드,메시지 관리 & 통계 > 설문오비즈 > 전송완료 메시지 조회 > 전송완료목록 엑셀 다운로드,/svMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2021-02-04 14:50:28,INIT,INIT,2021-02-04 14:50:28,INIT,INIT
+2947,2942,MT 요청 메시지 상세정보,메시지 관리 & 통계 > 설문오비즈 > MT 요청 메시지 조회 > MT 요청 메시지 상세정보,/svMate/mtDetail,P,ADMIN,1,4,Y,NULL,2021-02-04 14:50:28,INIT,INIT,2021-02-04 14:50:28,INIT,INIT
+2948,2943,MO 메시지 상세정보,메시지 관리 & 통계 > 설문오비즈 > MO 메시지 조회 > MO 메시지 상세정보,/svMate/moDetail,P,ADMIN,1,4,Y,NULL,2021-02-04 14:50:28,INIT,INIT,2021-02-04 14:50:28,INIT,INIT
+2949,2942,MT요청목록 엑셀 다운로드,메시지 관리 & 통계 > 설문오비즈 > MT 요청 메시지 조회 > MT요청목록 엑셀 다운로드,/svMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2021-02-04 14:50:28,INIT,INIT,2021-02-04 14:50:28,INIT,INIT
+2950,2943,MO 메시지 목록 엑셀 다운로드,메시지 관리 & 통계 > 설문오비즈 > MO 메시지 조회 > MO메시지목록 엑셀 다운로드,/svMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2021-02-04 14:50:28,INIT,INIT,2021-02-04 14:50:28,INIT,INIT
+2951,2944,설문 이력 상세정보,메시지 관리 & 통계 > 설문오비즈 > 설문 이력 조회 > 설문 이력 상세정보,/svMate/surveyHistDetail,P,ADMIN,1,4,Y,NULL,2021-02-04 14:50:28,INIT,INIT,2021-02-04 14:50:28,INIT,INIT
+2952,2944,설문 이력 엑셀 다운로드,메시지 관리 & 통계 > 설문오비즈 > 설문 이력 조회 > 엑셀 다운로드,/svMate/downloadExcel/realtime,F,ADMIN,1,5,Y,NULL,2021-02-04 14:50:29,INIT,INIT,2021-02-04 14:50:29,INIT,INIT
+2953,2938,설문 상태 변경,서비스 관리 > 설문 관리 > 설문 승인 > 설문 상태 변경,/survey/updateState,F,ADMIN,1,4,Y,NULL,2021-02-04 14:50:29,INIT,INIT,2021-02-04 14:50:29,INIT,INIT
+2954,2938,설문 승인 엑셀 다운로드,서비스 관리 > 설문 관리 > 설문 승인 > 설문 승인 엑셀 다운로드,/survey/reqlist/downloadExcel,F,ADMIN,2,4,Y,NULL,2021-02-04 14:50:29,INIT,INIT,2021-02-04 14:50:29,INIT,INIT
+2955,2939,설문 조회 엑셀 다운로드,서비스 관리 > 설문 관리 > 설문 조회 > 설문 조회 엑셀 다운로드,/survey/list/downloadExcel,F,ADMIN,2,4,Y,NULL,2021-02-04 14:50:29,INIT,INIT,2021-02-04 14:50:29,INIT,INIT
+2956,2938,설문 타겟팅 엑셀 업로드,서비스 관리 > 설문 관리 > 설문 승인 > 설문 타겟팅 엑셀 업로드,/survey/calculateCount,F,ADMIN,3,4,Y,NULL,2021-02-04 14:50:29,INIT,INIT,2021-02-04 14:50:29,INIT,INIT
+2957,2938,설문 내용 다운로드,서비스 관리 > 설문 관리 > 설문 승인 > 설문 내용 다운로드,/survey/contentDownload,F,ADMIN,4,4,Y,NULL,2021-02-04 14:50:29,INIT,INIT,2021-02-04 14:50:29,INIT,INIT
+2958,153,마케팅오비즈,과금 현황 > 상품 과금 현황 > 설문오비즈,/billing/prod/sv,M,ADMIN,5,3,Y,NULL,2021-02-04 14:50:29,INIT,INIT,2021-02-04 14:50:29,INIT,INIT
+2959,153,설문오비즈,과금 현황 > 상품 과금 현황 > 설문오비즈 > 엑셀 리포트 다운로드,/billing/prod/sv/excel,F,ADMIN,2,4,Y,NULL,2021-02-04 14:50:29,INIT,INIT,2021-02-04 14:50:29,INIT,INIT
+2971,269,발신번호 과금 현황,과금 현황 > 딜러사 과금 현황 > 발신번호 과금 현황,/billing/spcnum/deal/all,M,ADMIN,2,3,Y,NULL,2021-02-04 14:50:29,INIT,INIT,2021-02-04 14:50:29,INIT,INIT
+2972,13,마케팅오비즈,메시지 관리 & 통계 > 통계 > 설문오비즈,/stat/sv/all,M,ADMIN,4,3,Y,NULL,2021-02-04 14:50:30,INIT,INIT,2021-02-04 14:50:30,INIT,INIT
+2973,2972,고객사 전체 통계,메시지 관리 & 통계 > 통계 > 설문오비즈 > 고객사 전체 통계,/stat/sv/all,M,ADMIN,1,4,Y,NULL,2021-02-04 14:50:30,INIT,INIT,2021-02-04 14:50:30,INIT,INIT
+2974,2973,고객사별 전체 통계 상세내역,메시지 관리 & 통계 > 통계 > 설문오비즈 > 고객사 전체 통계 > 고객사 전체 통계 상세내역,/stat/sv/all/detail,P,ADMIN,1,5,Y,NULL,2021-02-04 14:50:30,INIT,INIT,2021-02-04 14:50:30,INIT,INIT
+2975,2973,엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 설문오비즈 > 고객사 전체 통계 > 상세내역 > 엑셀 리포트 다운로드,/stat/sv/all/detail/excel,F,ADMIN,2,5,Y,NULL,2021-02-04 14:50:30,INIT,INIT,2021-02-04 14:50:30,INIT,INIT
+2976,2972,고객사 비교 통계,메시지 관리 & 통계 > 통계 > 설문오비즈 > 고객사 비교 통계,/stat/sv,M,ADMIN,2,4,Y,NULL,2021-02-04 14:50:30,INIT,INIT,2021-02-04 14:50:30,INIT,INIT
+2977,2976,엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 설문오비즈 > 고객사 비교 통계 > 엑셀 리포트 다운로드,/stat/sv/excel,F,ADMIN,2,5,Y,NULL,2021-02-04 14:50:30,INIT,INIT,2021-02-04 14:50:30,INIT,INIT
+2978,2976,상세 통계 (설문 이력 조회),메시지 관리 & 통계 > 통계 > 설문오비즈 > 고객사 비교 통계 > 설문 이력 조회,/stat/sv/surveyHist,P,ADMIN,1,5,Y,NULL,2021-02-04 14:50:30,INIT,INIT,2021-02-04 14:50:30,INIT,INIT
+2979,2976,엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 설문오비즈 > 고객사 비교 통계 > 설문 이력 조회 > 엑셀 리포트 다운로드,/stat/sv/surveyHist/excel,F,ADMIN,2,5,Y,NULL,2021-02-04 14:50:30,INIT,INIT,2021-02-04 14:50:30,INIT,INIT
+2980,2972,고객사별 상세 통계,메시지 관리 & 통계 > 통계 > 설문오비즈 > 고객사 상세 통계,/stat/sv/custom,M,ADMIN,3,4,Y,NULL,2021-02-04 14:50:31,INIT,INIT,2021-02-04 14:50:31,INIT,INIT
+2981,2980,고객사별 상세 통계 상세내역,메시지 관리 & 통계 > 통계 > 설문오비즈 > 고객사 상세 통계 > 고객사 상세 통계 상세내역,/stat/sv/custom/detail,P,ADMIN,1,5,Y,NULL,2021-02-04 14:50:31,INIT,INIT,2021-02-04 14:50:31,INIT,INIT
+2982,2980,엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 설문오비즈 > 고객사 상세 통계 > 엑셀 리포트 다운로드,/stat/sv/custom/detail/excel,F,ADMIN,2,5,Y,NULL,2021-02-04 14:50:31,INIT,INIT,2021-02-04 14:50:31,INIT,INIT
+2983,2972,딜러사 상세 통계,메시지 관리 & 통계 > 통계 > 설문오비즈 > 딜러사별 상세 통계,/stat/sv/deal,M,ADMIN,4,4,Y,NULL,2021-02-04 14:50:31,INIT,INIT,2021-02-04 14:50:31,INIT,INIT
+2984,2983,딜러사 상세 통계 상세내역,메시지 관리 & 통계 > 통계 > 설문오비즈 > 딜러사별 상세 통계 > 딜러사별 상세 통계 상세내역,/stat/sv/deal/detail,P,ADMIN,1,5,Y,NULL,2021-02-04 14:50:31,INIT,INIT,2021-02-04 14:50:31,INIT,INIT
+2985,2983,딜러사 상세 통계 엑셀 다운로드,메시지 관리 & 통계 > 통계 > 설문오비즈 > 딜러사별 상세 통계 > 딜러사별 상세 통계 엑셀 다운로드,/stat/sv/deal/detail/excel,F,ADMIN,2,5,Y,NULL,2021-02-04 14:50:31,INIT,INIT,2021-02-04 14:50:31,INIT,INIT
+2986,2983,고객사별 특번 리스트 조회,메시지 관리 & 통계 > 통계 > 설문오비즈 > 고객사 상세 통계,/stat/sv/custom/spcnumlist,F,ADMIN,2,4,Y,NULL,2021-02-04 14:50:32,INIT,INIT,2021-02-04 14:50:32,INIT,INIT
+2987,2939,설문 결과 다운로드,서비스 관리 > 설문 관리 > 설문 조회 > 설문 결과 다운로드,/survey/surveyResult,F,ADMIN,3,4,Y,NULL,2021-02-04 14:50:32,INIT,INIT,2021-02-04 14:50:32,INIT,INIT
+3010,2983,프로젝트 리스트 조회,메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 프로젝트 리스트 조회,/stat/searchSurveyProject,F,ADMIN,3,5,Y,NULL,2021-02-04 14:50:32,INIT,INIT,2021-02-04 14:50:32,INIT,INIT
+3011,2983,설문 리스트 조회,메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 설문 리스트 조회,/stat/searchProjectSurveyList,F,ADMIN,4,5,Y,NULL,2021-02-04 14:50:32,INIT,INIT,2021-02-04 14:50:32,INIT,INIT
+3012,2980,고객사별 상세 통계 상세내역,메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 고객사별 상세 통계 상세내역,/stat/sv/custom/surveyDayHist,P,ADMIN,5,5,Y,NULL,2021-02-04 14:50:32,INIT,INIT,2021-02-04 14:50:32,INIT,INIT
+3013,2980,상세 통계(설문 이력 조회),메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 상세 통계(설문 이력 조회),/stat/sv/custom/surveyCompleDayHist,P,ADMIN,6,5,Y,NULL,2021-02-04 14:50:32,INIT,INIT,2021-02-04 14:50:32,INIT,INIT
+3018,3012,설문제목 상세 엑셀다운로드,메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 설문제목 조회 > 설문제목 상세 엑셀다운로드,/stat/surveyDayHist/sv/excel,F,ADMIN,1,6,Y,NULL,2021-02-04 14:50:33,INIT,INIT,2021-02-04 14:50:33,INIT,INIT
+3019,3013,설문완료 상세 엑셀다운로드,메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 설문완료건 조회 > 설문완료 상세 엑셀다운로드,/stat/detail/hist/excel/sv,F,ADMIN,1,6,Y,NULL,2021-02-04 14:50:33,INIT,INIT,2021-02-04 14:50:33,INIT,INIT
+3114,2940,전송완료 실패 내역,메시지 관리 & 통계 > 설문비즈챗 > 전송완료 실패 내역,/svMate/failCompleteList,P,ADMIN,6,3,Y,NULL,2021-02-04 14:50:33,INIT,INIT,2021-02-04 14:50:33,INIT,INIT
+3115,2940,MO 실패 내역,메시지 관리 & 통계 > 설문비즈챗 > MO 실패 내역,/svMate/failMoList,P,ADMIN,7,3,Y,NULL,2021-02-04 14:50:33,INIT,INIT,2021-02-04 14:50:33,INIT,INIT

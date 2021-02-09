@@ -1,0 +1,225 @@
+1,NULL,서비스 Dashboard,Dashboard,/dashboard,P,ADMIN,1,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+2,NULL,My Profile,My Profile,/myprofile/detail,P,ADMIN,2,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+3,2,My Profile 수정,My Profile > My Profile 수정,/myprofile/modify,P,ADMIN,1,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+4,NULL,메시지 관리 & 통계,메시지 관리 & 통계,NULL,M,ADMIN,1,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+5,NULL,고객사 관리,고객사 관리,NULL,M,ADMIN,2,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+6,NULL,운영 관리,운영 관리,NULL,M,ADMIN,3,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+8,NULL,서비스 관리,서비스 관리,NULL,M,ADMIN,5,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+10,4,알림비즈챗,메시지 관리 & 통계 > 알림비즈챗,NULL,M,ADMIN,1,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+11,4,상담비즈챗,메시지 관리 & 통계 > CS비즈챗,NULL,M,ADMIN,2,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+13,4,통계,메시지 관리 & 통계 > 통계,/stat/ar,M,ADMIN,5,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+14,10,전송완료 메시지 조회,메시지 관리 & 통계 > 알림비즈챗 > 전송완료 메시지 조회,/notiMate/completeList,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+15,10,MT 요청 메시지 조회,메시지 관리 & 통계 > 알림비즈챗 > MT 요청 메시지 조회,/notiMate/mtList,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+16,10,MO 메시지 조회,메시지 관리 & 통계 > 알림비즈챗 > MO 메시지 조회,/notiMate/moList,M,ADMIN,3,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+17,11,전송완료 메시지 조회,메시지 관리 & 통계 > CS비즈챗 > 전송완료 메시지 조회,/csMate/completeList,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+18,11,MT 요청 메시지 조회,메시지 관리 & 통계 > CS비즈챗 > MT 요청 메시지 조회,/csMate/mtList,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+19,11,MO 메시지 조회,메시지 관리 & 통계 > CS비즈챗 > MO 메시지 조회,/csMate/moList,M,ADMIN,3,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+20,11,상담 이력 조회,메시지 관리 & 통계 > CS비즈챗 > 상담 이력 조회,/csMate/consultHistList,M,ADMIN,4,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+21,5,고객사 관리,고객사 관리 > 고객사 관리,NULL,M,ADMIN,1,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+22,21,고객사 조회,고객사 관리 > 고객사 관리 > 고객사 조회,/customer/list,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+23,21,고객사 등록,고객사 관리 > 고객사 관리 > 고객사 등록,/customer/regist,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+25,6,공지사항 관리,운영 관리 > 공지사항 관리,NULL,M,ADMIN,2,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+26,6,FAQ 관리,운영 관리 > FAQ 관리,NULL,M,ADMIN,3,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+29,25,공지사항 조회,운영 관리 > 공지사항 관리 > 공지사항 조회,/noti/list,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+30,25,공지사항 등록,운영 관리 > 공지사항 관리 > 공지사항 등록,/noti/regist,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+31,26,FAQ 조회,운영 관리 > FAQ 관리 > FAQ 조회,/faq/list,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+32,26,FAQ 등록,운영 관리 > FAQ 관리 > FAQ 등록,/faq/regist,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+34,8,CID 관리,서비스 관리 > CID 관리,NULL,M,ADMIN,1,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+36,34,CID 조회,서비스 관리 > CID 관리 > CID 조회,/msgserver/list,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+37,34,CID 등록,서비스 관리 > CID 관리 > CID 등록,/msgserver/regist,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+45,14,전송완료 메시지 상세정보,메시지 관리 & 통계 > 알림비즈챗 > 전송완료 메시지 조회 > 전송완료 메시지 상세정보,/notiMate/completeDetail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+46,14,전송완료목록 엑셀 다운로드,메시지 관리 & 통계 > 알림비즈챗 > 전송완료 메시지 조회 > 전송완료목록 엑셀 다운로드,/notiMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+47,15,MT 요청 메시지 상세정보,메시지 관리 & 통계 > 알림비즈챗 > MT 요청 메시지 조회 > MT 요청 메시지 상세정보,/notiMate/mtDetail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+48,16,MO 메시지 상세정보,메시지 관리 & 통계 > 알림비즈챗 > MO 메시지 조회 > MO 메시지 상세정보,/notiMate/moDetail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+49,12,메시지 발송 저장,메시지 관리 & 통계 > 메시지 발송 > 메시지 발송 저장,/notiMate/sendMsg,F,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+50,22,고객사 상세정보,고객사 관리 > 고객사 관리 > 고객사 상세정보,/customer/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+51,23,특번 조회,고객사 관리 > 고객사 관리 > 고객사 등록 > 특번 조회,/customer/searchSpc,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+52,23,access키 encry키 생성,고객사 관리 > 고객사 관리 > 고객사 등록 > access키 encry키 생성,/customer/getKey,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+53,23,고객정보 수정,고객사 관리 > 고객사 관리 > 고객사 등록 > 고객정보 수정,/customer/saveCustomerInfo,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+54,23,고객정보 첨부파일 다운로드,고객사 관리 > 고객사 관리 > 고객사 등록 > 고객정보 첨부파일 다운로드,/customer/registFileDown,F,ADMIN,4,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+55,23,특번목록조회,고객사 관리 > 고객사 관리 > 고객사 등록 > 특번목록조회,/customer/searchSpcNumList,F,ADMIN,5,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+56,29,공지사항 상세정보,운영 관리 > 공지사항 관리 > 공지사항 조회 > 공지사항 상세정보,/noti/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+57,30,공지사항 저장,운영 관리 > 공지사항 관리 > 공지사항 등록 > 공지사항 저장,/noti/registSave,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+58,30,공지사항정보 삭제,운영 관리 > 공지사항 관리 > 공지사항 삭제,/noti/removeNoti,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+59,30,공지사항정보 첨부파일 다운로드,운영 관리 > 공지사항 관리 > 공지사항 등록 > 공지사항정보 첨부파일 다운로드,/noti/attachDownload,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+60,31,FAQ 상세정보,운영 관리 > FAQ 관리 > FAQ 조회 > FAQ 상세정보,/faq/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+61,32,FAQ 저장,운영 관리 > FAQ 관리 > FAQ 등록 > FAQ 저장,/faq/registSave,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+62,32,FAQ정보 삭제,운영 관리 > FAQ 관리 > FAQ 등록 > FAQ정보 삭제,/faq/removeFaq,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+63,32,FAQ정보 첨부파일 다운로드,운영 관리 > FAQ 관리 > FAQ 등록 > FAQ정보 첨부파일 다운로드,/faq/attachDownload,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+64,27,통신사 휴대 전화 상세,운영 관리 > 통신사 관리 > 휴대전화 조회 > 통신사 휴대 전화 상세,/device/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+65,27,통신사 휴대 전화 저장,운영 관리 > 통신사 관리 > 휴대전화 조회 > 통신사 휴대 전화 저장,/device/save,F,ADMIN,4,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+66,27,통신사 휴대 전화 삭제,운영 관리 > 통신사 관리 > 휴대전화 조회 > 통신사 휴대 전화 삭제,/device/delete,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+67,27,휴대전화번호 체크,운영 관리 > 통신사 관리 > 휴대전화 조회 > 휴대전화번호 체크,/device/checkMdn,F,ADMIN,4,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+68,36,CID 상세정보,서비스 관리 > CID 관리 > CID 조회 > CID 상세정보,/msgserver/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+69,37,CID 저장,서비스 관리 > CID 관리 > CID 등록 > CID 저장,/msgserver/save,F,ADMIN,4,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+75,22,고객목록 엑셀 다운로드,고객사 관리 > 고객사 관리 > 고객사 조회 > 고객목록 엑셀 다운로드,/customer/customerListExcelDown,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+76,32,카테고리목록 조회,운영 관리 > FAQ 관리 > FAQ 등록 > 카테고리목록 조회,/faq/getCateList,F,ADMIN,4,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+77,2,My Profile 비밀번호 체크,My Profile >My Profile 비밀번호 체크,/myprofile/checkPasswd,F,ADMIN,2,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+78,2,My Profile 비밀번호 변경,My Profile >My Profile 비밀번호 변경,/myprofile/changePasswd,F,ADMIN,3,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+79,2,My Profile 정보 저장,My Profile >My Profile 정보 저장,/myprofile/save,F,ADMIN,4,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+80,15,메시지 첨부파일 다운로드,메시지 관리&통계 > 알림비즈챗 > MT 요청 메시지 조회 > 메시지 첨부파일 다운로드,/notiMate/attachDownload,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+81,36,CID 엑셀다운로드,서비스 관리 > CID 관리 > CID 조회 > CID 엑셀다운로드,/msgserver/downloadExcel,F,ADMIN,2,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+82,17,전송완료 메시지 상세정보,메시지 관리 & 통계 > CS비즈챗 > 전송완료 메시지 조회 > 전송완료 메시지 상세정보,/csMate/completeDetail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+83,17,전송완료목록 엑셀 다운로드,메시지 관리 & 통계 > CS비즈챗 > 전송완료 메시지 조회 > 전송완료목록 엑셀 다운로드,/csMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+84,18,MT 요청 메시지 상세정보,메시지 관리 & 통계 > CS비즈챗 > MT 요청 메시지 조회 > MT 요청 메시지 상세정보,/csMate/mtDetail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+85,18,메시지 첨부파일 다운로드,메시지 관리 & 통계 > CS비즈챗 > MT 요청 메시지 조회 > 메시지 첨부파일 다운로드,/csMate/attachDownload,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+86,19,MO 메시지 상세정보,메시지 관리&통계 > CS비즈챗 > MO 메시지 조회 > MO 메시지 상세정보,/csMate/moDetail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+87,15,MT요청목록 엑셀 다운로드,메시지 관리 & 통계 > 알림비즈챗 > MT 요청 메시지 조회 > MT요청목록 엑셀 다운로드,/notiMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+88,16,MO 메시지 목록 엑셀 다운로드,메시지 관리 & 통계 > 알림비즈챗 > MO 메시지 조회 > MO메시지목록 엑셀 다운로드,/notiMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+89,18,MT요청목록 엑셀 다운로드,메시지 관리 & 통계 > CS비즈챗 > MT 요청 메시지 조회 > MT요청목록 엑셀 다운로드,/csMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+90,19,MO 메시지 목록 엑셀 다운로드,메시지 관리 & 통계 > CS비즈챗 > MO 메시지 조회 > MO메시지목록 엑셀 다운로드,/csMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+91,23,"담당자 아이디, 이메일 중복체크","고객사 관리 > 고객사 관리 > (고객사 등록, 고객사 조회) > 담당자 추가 팝업",/customer/checkContactDupleData,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+92,6,1:1문의 관리,운영 관리 > 1:1문의 관리,/qna/list,M,ADMIN,4,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+93,92,1:1문의 상세정보,운영 관리 > 1:1문의 관리 > 1:1문의 상세정보,/qna/detail,P,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+94,92,1:1문의 삭제,운영 관리 > 1:1문의 관리 > 1:1문의 삭제,/qna/del,F,ADMIN,1,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+95,92,1:1문의 수정,운영 관리 > 1:1문의 관리 > 1:1문의 수정,/qna/modify,F,ADMIN,1,1,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+96,6,다운로드 관리,운영 관리 > 다운로드 관리,/downloadMgmt/list,M,ADMIN,5,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+97,96,다운로드 상세정보,운영 관리 > 다운로드 관리 > 다운로드 상세정보,/downloadMgmt/detail,P,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+98,96,다운로드 추가,운영 관리 > 다운로드 관리 > 다운로드 추가,/downloadMgmt/regist,P,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+99,96,다운로드 저장/수정,운영 관리 > 다운로드 관리 > 다운로드 저장/수정,/downloadMgmt/registSave,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+100,97,파일 다운로드,운영 관리 > 다운로드 관리 > 다운로드 상세 > 파일 다운로드,/downloadMgmt/attachDownload,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+101,6,이벤트 관리,운영 관리 > 이벤트관리,NULL,M,ADMIN,6,2,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+102,101,이벤트 조회,운영 관리 > 이벤트관리 > 이벤트 조회,/eventMgmt/list,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+103,101,이벤트 등록,운영 관리 > 이벤트관리 > 이벤트 등록,/eventMgmt/regist,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+104,102,이벤트 상세정보,운영 관리 > 이벤트관리 > 이벤트 상세정보,/eventMgmt/detail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+105,101,다운로드 저장/수정,운영 관리 > 이벤트 관리 > 이벤트 저장/수정,/eventMgmt/registSave,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+106,104,파일 다운로드,운영 관리 > 이벤트 관리 > 이벤트 상세 > 파일 다운로드,/eventMgmt/attachDownload,F,ADMIN,2,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+107,96,다운로드 목록 삭제,운영 관리 > 다운로드 관리 > 다운로드 목록 삭제,/downloadMgmt/remove,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+108,20,상담 이력 상세정보,메시지 관리 & 통계 > CS비즈챗 > 상담 이력 조회 > 상담 이력 상세정보,/csMate/consultHistDetail,P,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+109,20,상담 이력 엑셀 다운로드,메시지 관리 & 통계 > CS비즈챗 > 상담 이력 조회 > 엑셀 다운로드,/csMate/downloadExcel/realtime,F,ADMIN,1,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+110,23,시스템 연동 상태 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > 시스템 연동 상태 수정,/customer/modifySystemIntfState,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+111,23,고객사 담당자 정보 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > 고객사 담당자 정보 수정,/customer/saveContactInfo,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+112,23,API 연동 정보 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > API 연동 정보 수정,/customer/saveApiIntfInfo,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+113,23,허용 서버 정보 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > 허용 서버 정보 수정,/customer/saveCrmClientInfo,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+114,23,고객사 서버 정보 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > 고객사 서버 정보 수정,/customer/saveCrmServerInfo,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+115,23,API 권한 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > API 권한 수정,/customer/saveApiRoleMapp,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+116,13,알림비즈챗,메시지 관리 & 통계 > 통계 > 알림비즈챗,/stat/ar,M,ADMIN,1,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+117,116,고객사 비교 통계,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 고객사 비교 통계,/stat/ar,M,ADMIN,1,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+118,116,고객사별 상세 통계,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 고객사별 상세 통계,/stat/ar/custom,M,ADMIN,2,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+119,117,고객사 비교 통계 상세내역,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 고객사 비교 통계 > 고객사 비교 통계 상세내역,/stat/ar/detail,P,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+120,116,고객사 비교 통계 엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 고객사 비교 통계 > 엑셀 리포트 다운로드,/stat/ar/detail/excel,F,ADMIN,4,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+121,118,고객사별 상세 통계 상세내역,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 고객사별 상세 통계 > 고객사별 상세 통계 상세내역,/stat/ar/custom/detail,P,ADMIN,5,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+122,116,고객사별 상세 통계 엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 고객사별 상세 통계 > 엑셀 리포트 다운로드,/stat/ar/custom/detail/excel,F,ADMIN,6,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+123,13,상담비즈챗,메시지 관리 & 통계 > 통계 > CS비즈챗,/stat/cs/all,M,ADMIN,2,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+124,123,고객사 비교 통계,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사 비교 통계,/stat/cs,M,ADMIN,2,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+125,123,고객사별 상세 통계,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사별 상세 통계,/stat/cs/custom,M,ADMIN,3,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+126,124,고객사 비교 통계 상세내역,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사 비교 통계 > 고객사 비교 통계 상세내역,/stat/cs/detail,P,ADMIN,3,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+127,123,고객사 비교 통계 엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사 비교 통계 > 엑셀 리포트 다운로드,/stat/cs/detail/excel,F,ADMIN,4,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+128,125,고객사별 상세 통계 상세내역,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사별 상세 통계 > 고객사별 상세 통계 상세내역,/stat/cs/custom/detail,P,ADMIN,5,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+129,123,고객사별 상세 통계 엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사별 상세 통계 > 엑셀 리포트 다운로드,/stat/cs/custom/detail/excel,F,ADMIN,6,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+130,13,메시지 인사이트,메시지 관리 & 통계 > 통계 > 마케팅비즈챗,/stat/mk,M,ADMIN,3,3,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+131,130,고객사 비교 통계,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 고객사 비교 통계,/stat/mk/customs,M,ADMIN,2,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+132,130,고객사별 상세 통계,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 고객사별 상세 통계,/stat/mk/custom,M,ADMIN,3,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+133,131,고객사 비교 통계 상세내역,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 고객사 비교 통계 > 고객사 비교 통계 상세내역,/stat/mk/customs/detail,P,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+134,130,고객사 비교 통계 엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 고객사 비교 통계 > 엑셀 리포트 다운로드,/stat/mk/customs/detail/excel,F,ADMIN,4,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+135,132,고객사별 상세 통계 상세내역,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 고객사별 상세 통계 > 고객사별 상세 통계 상세내역,/stat/mk/custom/detail,P,ADMIN,5,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+136,130,고객사별 상세 통계 엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 고객사별 상세 통계 > 엑셀 리포트 다운로드,/stat/mk/custom/detail/excel,F,ADMIN,6,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+137,23,가입 상태 수정,고객사 관리 > 고객사 관리 > 고객사 조회 > 가입 상태 수정,/customer/saveJoinState,F,ADMIN,3,5,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+138,116,고객사별 특번 리스트 조회,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 고객사별 상세 통계,/stat/ar/custom/spcnumlist,F,ADMIN,2,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+139,123,고객사별 특번 리스트 조회,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사별 상세 통계,/stat/cs/custom/spcnumlist,F,ADMIN,2,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+140,130,고객사별 특번 리스트 조회,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 고객사별 상세 통계,/stat/mk/custom/spcnumlist,F,ADMIN,2,4,Y,NULL,2017-08-14 18:01:34,INIT,INIT,2017-08-14 18:01:34,INIT,INIT
+141,23,탈퇴 승인,고객사 관리 > 고객사 관리 > 고객사 조회 > 탈퇴 승인,/customer/saveLeaveState,F,ADMIN,4,5,Y,NULL,2017-08-19 19:29:02,INIT,INIT,2017-08-19 19:29:02,INIT,INIT
+143,22,임시 비밀번호 발급,고객사 관리 > 고객사 관리 > 고객사 조회 > 상세정보 -> 임시 비밀번호 발급,/customer/pwcreate,P,ADMIN,1,4,Y,NULL,2017-08-25 21:31:31,INIT,INIT,2017-08-25 21:31:31,INIT,INIT
+144,25,엑셀 다운로드,운영 관리 > 공지사항 관리 > 엑셀 다운로드,/noti/notiExcelDownload,F,ADMIN,3,3,Y,NULL,2017-09-04 15:40:38,INIT,INIT,2017-09-04 15:40:38,INIT,INIT
+145,23,사업자등록번호 중복 확인,고객사 관리 > 고객사 관리 > 고객사 등록 > 사업자등록번호 중복 확인,/customer/checkBizRegNum,F,ADMIN,5,5,Y,NULL,2017-09-04 18:30:35,INIT,INIT,2017-09-04 18:30:35,INIT,INIT
+146,123,고객사 전체 통계,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사 전체 통계 > 고객사 전체 통계,/stat/cs/all,M,ADMIN,1,4,Y,NULL,2017-09-19 19:59:27,INIT,INIT,2017-09-19 19:59:27,INIT,INIT
+147,146,고객사 전체 통계 상세내역,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사 전체 통계 > 고객사 전체 통계 상세내역,/stat/cs/all/detail,P,ADMIN,1,5,Y,NULL,2017-09-19 19:59:27,INIT,INIT,2017-09-19 19:59:27,INIT,INIT
+148,146,엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사 전체 통계 > 엑셀 리포트 다운로드,/stat/cs/all/detail/excel,F,ADMIN,1,4,Y,NULL,2017-09-19 19:59:27,INIT,INIT,2017-09-19 19:59:27,INIT,INIT
+149,123,엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사 비교 통계 > 엑셀 리포트 다운로드,/stat/cs/excel,F,ADMIN,1,4,Y,NULL,2017-09-19 19:59:27,INIT,INIT,2017-09-19 19:59:27,INIT,INIT
+150,125,상세 통계(상담 이력 조회),메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사별 상세 통계 > 상세 통계(상담 이력 조회),/stat/cs/consultHist,P,ADMIN,10,4,Y,NULL,2017-09-19 19:59:27,INIT,INIT,2017-09-19 19:59:27,INIT,INIT
+151,123,상세 통계(상담 이력 조회) 엑셀 리포트,메시지 관리 & 통계 > 통계 > CS비즈챗 > 고객사별 상세 통계 > 상세 통계(상담 이력 조회) > 엑셀 리포트 다운로드,/stat/cs/consultHist/excel,F,ADMIN,10,4,Y,NULL,2017-09-19 19:59:27,INIT,INIT,2017-09-19 19:59:27,INIT,INIT
+190,101,이벤트 상세정보 수정,운영 관리 > 이벤트관리 > 이벤트 상세정보 수정,/eventMgmt/modify,P,ADMIN,2,3,Y,NULL,2017-10-26 21:54:17,INIT,INIT,2017-10-26 21:54:17,INIT,INIT
+191,4,메시지 인사이트,메시지 관리 & 통계 > 마케팅비즈챗,NULL,M,ADMIN,3,2,Y,NULL,2017-11-22 10:27:57,INIT,INIT,2017-11-22 10:27:57,INIT,INIT
+192,191,전송완료 메시지 조회,메시지 관리 & 통계 > 마케팅비즈챗 > 전송완료 메시지 조회,/mkMate/completeList,M,ADMIN,1,3,Y,NULL,2017-11-22 10:27:58,INIT,INIT,2017-11-22 10:27:58,INIT,INIT
+193,191,MT 요청 메시지 조회,메시지 관리 & 통계 > 마케팅비즈챗 > MT 요청 메시지 조회,/mkMate/mtList,M,ADMIN,2,3,Y,NULL,2017-11-22 10:27:58,INIT,INIT,2017-11-22 10:27:58,INIT,INIT
+194,191,MO 메시지 조회,메시지 관리 & 통계 > 마케팅비즈챗 > MO 메시지 조회,/mkMate/moList,M,ADMIN,3,3,Y,NULL,2017-11-22 10:27:59,INIT,INIT,2017-11-22 10:27:59,INIT,INIT
+195,192,전송완료 메시지 상세정보,메시지 관리 & 통계 > 마케팅비즈챗 > 전송완료 메시지 조회 > 전송완료 메시지 상세정보,/mkMate/completeDetail,P,ADMIN,1,4,Y,NULL,2017-11-22 10:28:00,INIT,INIT,2017-11-22 10:28:00,INIT,INIT
+196,192,전송완료목록 엑셀 다운로드,메시지 관리 & 통계 > 마케팅비즈챗 > 전송완료 메시지 조회 > 전송완료목록 엑셀 다운로드,/mkMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2017-11-22 10:28:01,INIT,INIT,2017-11-22 10:28:01,INIT,INIT
+197,193,MT 요청 메시지 상세정보,메시지 관리 & 통계 > 마케팅비즈챗 > MT 요청 메시지 조회 > MT 요청 메시지 상세정보,/mkMate/mtDetail,P,ADMIN,1,4,Y,NULL,2017-11-22 10:28:01,INIT,INIT,2017-11-22 10:28:01,INIT,INIT
+198,193,메시지 첨부파일 다운로드,메시지 관리 & 통계 > 마케팅비즈챗 > MT 요청 메시지 조회 > 메시지 첨부파일 다운로드,/mkMate/attachDownload,F,ADMIN,1,5,Y,NULL,2017-11-22 10:28:02,INIT,INIT,2017-11-22 10:28:02,INIT,INIT
+199,194,MO 메시지 상세정보,메시지 관리 & 통계 > 마케팅비즈챗 > MO 메시지 조회 > MO 메시지 상세정보,/mkMate/moDetail,P,ADMIN,1,4,Y,NULL,2017-11-22 10:28:03,INIT,INIT,2017-11-22 10:28:03,INIT,INIT
+200,193,MT요청목록 엑셀 다운로드,메시지 관리 & 통계 > 마케팅비즈챗 > MT 요청 메시지 조회 > MT요청목록 엑셀 다운로드,/mkMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2017-11-22 10:28:04,INIT,INIT,2017-11-22 10:28:04,INIT,INIT
+201,193,MO 메시지 목록 엑셀 다운로드,메시지 관리 & 통계 > 마케팅비즈챗 > MO 메시지 조회 > MO메시지목록 엑셀 다운로드,/mkMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2017-11-22 10:28:04,INIT,INIT,2017-11-22 10:28:04,INIT,INIT
+202,130,고객사 전체 통계,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 고객사 전체 통계,/stat/mk,M,ADMIN,1,4,Y,NULL,2017-11-22 10:28:06,INIT,INIT,2017-11-22 10:28:06,INIT,INIT
+203,202,고객사 전체 통계 상세내역,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 고객사 전체 통계 > 고객사 전체 통계 상세내역,/stat/mk/detail,P,ADMIN,2,5,Y,NULL,2017-11-22 10:28:07,INIT,INIT,2017-11-22 10:28:07,INIT,INIT
+204,202,고객사 전체 통계 엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 고객사 전체 통계 > 엑셀 리포트 다운로드,/stat/mk/detail/excel,F,ADMIN,3,4,Y,NULL,2017-11-22 10:28:08,INIT,INIT,2017-11-22 10:28:08,INIT,INIT
+205,2,My Profile 기존 비밀번호 확인,My Profile > My Profile 기존 비밀번호 확인,/myprofile/checkOriginPassword,F,ADMIN,5,2,Y,NULL,2017-11-14 00:40:41,INIT,INIT,2017-11-14 00:40:41,INIT,INIT
+206,130,고객사별 결과 분석,메시지 관리 & 통계 > 마케팅비즈챗 > 고객사별 결과 분석,/stat/mk/analytics,M,ADMIN,4,4,Y,NULL,2017-11-22 10:40:43,INIT,INIT,2017-11-22 10:40:43,INIT,INIT
+207,206,고객사별 결과 분석(방문자),메시지 관리 & 통계 > 마케팅비즈챗 > 고객사별 결과 분석 > 고객사별 결과 분석(방문자),/stat/mk/analytics/visitor,P,ADMIN,1,5,Y,NULL,2017-11-22 10:40:43,INIT,INIT,2017-11-22 10:40:43,INIT,INIT
+208,206,고객사별 결과 분석(반응률),메시지 관리 & 통계 > 마케팅비즈챗 > 고객사별 결과 분석 > 고객사별 결과 분석(반응률),/stat/mk/analytics/reaction,P,ADMIN,2,5,Y,NULL,2017-11-22 10:40:43,INIT,INIT,2017-11-22 10:40:43,INIT,INIT
+209,206,고객사별 결과 분석(성별),메시지 관리 & 통계 > 마케팅비즈챗 > 고객사별 결과 분석 > 객사별 결과 분석(성별),/stat/mk/analytics/gender,P,ADMIN,3,5,Y,NULL,2017-11-22 10:40:43,INIT,INIT,2017-11-22 10:40:43,INIT,INIT
+210,206,고객사별 결과 분석(연령),메시지 관리 & 통계 > 마케팅비즈챗 > 고객사별 결과 분석 > 고객사별 결과 분석(연령),/stat/mk/analytics/age,P,ADMIN,4,5,Y,NULL,2017-11-22 10:40:43,INIT,INIT,2017-11-22 10:40:43,INIT,INIT
+211,206,고객사별 결과 분석(지역),메시지 관리 & 통계 > 마케팅비즈챗 > 고객사별 결과 분석 > 고객사별 결과 분석(지역),/stat/mk/analytics/region,P,ADMIN,5,5,Y,NULL,2017-11-22 10:40:43,INIT,INIT,2017-11-22 10:40:43,INIT,INIT
+212,206,고객사별 결과 분석(접속시간),메시지 관리 & 통계 > 마케팅비즈챗 > 고객사별 결과 분석 > 고객사별 결과 분석(접속시간),/stat/mk/analytics/time,P,ADMIN,6,5,Y,NULL,2017-11-22 10:40:43,INIT,INIT,2017-11-22 10:40:43,INIT,INIT
+213,206,엑셀 리포트 다운로드,메시지 관리 & 통계 > 마케팅비즈챗 > 고객사별 결과 분석 > 엑셀 다운로드,/stat/mk/analytics/excel,F,ADMIN,7,5,Y,NULL,2017-11-22 10:40:43,INIT,INIT,2017-11-22 10:40:43,INIT,INIT
+214,8,모바일웹 관리,서비스 관리 > 모바일웹 관리,/mobileWeb/reqlist,M,ADMIN,4,2,Y,NULL,2017-11-22 10:28:12,INIT,INIT,2017-11-22 10:28:12,INIT,INIT
+215,214,모바일웹 승인,서비스 관리 > 모바일웹 관리 > 모바일웹 승인,/mobileWeb/reqlist,M,ADMIN,1,3,Y,NULL,2017-11-22 10:37:00,INIT,INIT,2017-11-22 10:37:00,INIT,INIT
+216,215,모바일웹 상세정보,서비스 관리 > 모바일웹 관리 > 모바일웹 승인 > 모바일웹 상세정보,/mobileWeb/reqlist/detail,P,ADMIN,1,4,Y,NULL,2017-11-22 10:37:00,INIT,INIT,2017-11-22 10:37:00,INIT,INIT
+217,214,모바일웹 조회,서비스 관리 > 모바일웹 관리 > 모바일웹 조회,/mobileWeb/list,M,ADMIN,2,3,Y,NULL,2017-11-22 10:37:00,INIT,INIT,2017-11-22 10:37:00,INIT,INIT
+218,217,모바일웹 상세정보,서비스 관리 > 모바일웹 관리 > 모바일웹 조회 > 모바일웹 상세정보,/mobileWeb/list/detail,P,ADMIN,1,4,Y,NULL,2017-11-22 10:37:00,INIT,INIT,2017-11-22 10:37:00,INIT,INIT
+219,215,모바일웹 등록/승인,서비스 관리 > 모바일웹 관리 > 모바일웹 승인> 모바일웹 등록/승인,/mobileWeb/update,F,ADMIN,1,4,Y,NULL,2017-11-22 10:37:00,INIT,INIT,2017-11-22 10:37:00,INIT,INIT
+220,130,모바일웹 목록,메시지 관리 & 통계 > 마케팅비즈챗 > 고객사별 결과 분석 > 모바일웹 목록,/stat/mk/analytics/mobile,F,ADMIN,5,4,Y,NULL,2017-11-22 10:40:43,INIT,INIT,2017-11-22 10:40:43,INIT,INIT
+221,130,분석 데이타 검색,메시지 관리 & 통계 > 마케팅비즈챗 > 고객사별 결과 분석 > 데이타,/stat/mk/analytics/graph,F,ADMIN,6,4,Y,NULL,2017-11-22 10:40:43,INIT,INIT,2017-11-22 10:40:43,INIT,INIT
+222,215,엑셀 리포트 다운로드,서비스 관리 > 모바일웹 관리 > 모바일웹 승인 > 엑셀 리포트 다운로드,/mobileWeb/reqlist/excel,F,ADMIN,1,4,Y,NULL,2017-11-22 10:37:00,INIT,INIT,2017-11-22 10:37:00,INIT,INIT
+223,217,엑셀 리포트 다운로드,서비스 관리 > 모바일웹 관리 > 모바일웹 조회 > 엑셀 리포트 다운로드,/mobileWeb/list/excel,F,ADMIN,2,4,Y,NULL,2017-11-22 10:37:00,INIT,INIT,2017-11-22 10:37:00,INIT,INIT
+225,217,모바일 웹 보기,서비스 관리 > 모바일웹 관리 > 모바일 웹 보기,/mobileWeb/mobileWebViewPupUp,P,ADMIN,2,4,Y,NULL,2017-11-24 21:51:41,INIT,INIT,2017-11-24 21:51:41,INIT,INIT
+226,217,콘텐츠 다운로드,서비스 관리 > 모바일웹 관리 > 콘텐츠 다운로드,/mobileWeb/mobileWebDownload,F,ADMIN,3,4,Y,NULL,2017-11-24 21:51:44,INIT,INIT,2017-11-24 21:51:44,INIT,INIT
+227,117,중계사별 고객사 조회,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 고객사 비교 통계,/stat/rlc/customlist,F,ADMIN,2,4,Y,NULL,2018-03-12 00:00:00,INIT,INIT,2018-03-12 00:00:00,INIT,INIT
+228,170,중계사별 고객사 조회,서비스 관리 > 특번 관리 > 특번 승인 ,/spcNumMgmt/rlc/customlist,F,ADMIN,1,4,Y,NULL,2018-03-19 00:00:00,INIT,INIT,2018-03-19 00:00:00,INIT,INIT
+234,117,딜러사별 고객사 조회,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 고객사 비교 통계,/stat/dlc/customlist,F,ADMIN,3,4,Y,NULL,2018-05-03 00:00:00,INIT,INIT,2018-05-03 00:00:00,INIT,INIT
+235,23,중계사 별 딜러사 조회,고객사 관리 > 고객사 등록,/customer/dlcList,F,ADMIN,2,2,Y,NULL,2018-05-04 00:00:00,INIT,INIT,2018-05-04 00:00:00,INIT,INIT
+236,170,딜러사별 고객사 조회,서비스 관리 > 특번 관리 > 특번 승인,/spcNumMgmt/dlc/customlist,F,ADMIN,4,4,Y,NULL,2018-05-21 00:00:00,INIT,INIT,2018-05-21 00:00:00,INIT,INIT
+240,4,마케팅비즈챗,메시지 관리 & 통계 > 설문비즈챗,NULL,M,ADMIN,4,2,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+241,240,전송완료 메시지 조회,메시지 관리 & 통계 > 설문비즈챗 > 전송완료 메시지 조회,/svMate/completeList,M,ADMIN,1,3,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+242,240,MT 요청 메시지 조회,메시지 관리 & 통계 > 설문비즈챗 > MT 요청 메시지 조회,/svMate/mtList,M,ADMIN,2,3,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+243,240,MO 메시지 조회,메시지 관리 & 통계 > 설문비즈챗 > MO 메시지 조회,/svMate/moList,M,ADMIN,3,3,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+244,240,설문 이력 조회,메시지 관리 & 통계 > 설문비즈챗 > 설문 이력 조회,/svMate/surveyHistList,M,ADMIN,4,3,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+245,241,전송완료 메시지 상세정보,메시지 관리 & 통계 > 설문비즈챗 > 전송완료 메시지 조회 > 전송완료 메시지 상세정보,/svMate/completeDetail,P,ADMIN,1,4,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+246,241,전송완료목록 엑셀 다운로드,메시지 관리 & 통계 > 설문비즈챗 > 전송완료 메시지 조회 > 전송완료목록 엑셀 다운로드,/svMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+247,242,MT 요청 메시지 상세정보,메시지 관리 & 통계 > 설문비즈챗 > MT 요청 메시지 조회 > MT 요청 메시지 상세정보,/svMate/mtDetail,P,ADMIN,1,4,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+248,243,MO 메시지 상세정보,메시지 관리 & 통계 > 설문비즈챗 > MO 메시지 조회 > MO 메시지 상세정보,/svMate/moDetail,P,ADMIN,1,4,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+249,242,MT요청목록 엑셀 다운로드,메시지 관리 & 통계 > 설문비즈챗 > MT 요청 메시지 조회 > MT요청목록 엑셀 다운로드,/svMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+250,243,MO 메시지 목록 엑셀 다운로드,메시지 관리 & 통계 > 설문비즈챗 > MO 메시지 조회 > MO메시지목록 엑셀 다운로드,/svMate/downloadExcel,F,ADMIN,1,5,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+251,244,설문 이력 상세정보,메시지 관리 & 통계 > 설문비즈챗 > 설문 이력 조회 > 설문 이력 상세정보,/svMate/surveyHistDetail,P,ADMIN,1,4,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+252,244,설문 이력 엑셀 다운로드,메시지 관리 & 통계 > 설문비즈챗 > 설문 이력 조회 > 엑셀 다운로드,/svMate/downloadExcel/realtime,F,ADMIN,1,5,Y,NULL,2018-05-22 00:00:00,INIT,INIT,2018-05-22 00:00:00,INIT,INIT
+260,116,딜러사 상세통계,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 딜러사별 상세통계,/stat/ar/deal,M,ADMIN,3,4,Y,NULL,2018-06-01 00:00:00,INIT,INIT,2018-06-01 00:00:00,INIT,INIT
+261,260,딜러사 상세 통계 엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 딜러사별 상세 통계 > 엑셀 리포트 다운로드,/stat/ar/deal/detail/excel,F,ADMIN,2,4,Y,NULL,2018-06-01 00:00:00,INIT,INIT,2018-06-01 00:00:00,INIT,INIT
+262,260,딜러사 상세 통계 상세내역,메시지 관리 & 통계 > 통계 > 알림비즈챗 > 딜러사별 상세 통계 > 딜러사별 상세 통계 상세내역,/stat/ar/deal/detail,P,ADMIN,4,5,Y,NULL,2018-06-01 00:00:00,INIT,INIT,2018-06-01 00:00:00,INIT,INIT
+263,123,딜러사 상세 통계,메시지 관리 & 통계 > 통계 > CS비즈챗 > 딜러사별 상세통계,/stat/cs/deal,M,ADMIN,4,4,Y,NULL,2018-06-01 00:00:00,INIT,INIT,2018-06-01 00:00:00,INIT,INIT
+264,263,딜러사 상세 통계 상세내역,메시지 관리 & 통계 > 통계 > CS비즈챗 > 딜러사별 상세 통계 > 딜러사별 상세 통계 상세내역,/stat/cs/deal/detail,P,ADMIN,1,5,Y,NULL,2018-06-01 00:00:00,INIT,INIT,2018-06-01 00:00:00,INIT,INIT
+265,263,딜러사 상세 통계 엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > CS비즈챗 > 딜러사별 상세 통계 > 엑셀 리포트 다운로드,/stat/cs/deal/detail/excel,F,ADMIN,2,5,Y,NULL,2018-06-01 00:00:00,INIT,INIT,2018-06-01 00:00:00,INIT,INIT
+266,130,딜러사 상세 통계,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 딜러사별 상세통계,/stat/mk/deal,M,ADMIN,5,4,Y,NULL,2018-06-01 00:00:00,INIT,INIT,2018-06-01 00:00:00,INIT,INIT
+267,266,딜러사 상세 통계 상세내역,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 딜러사별 상세 통계 > 딜러사별 상세 통계 상세내역,/stat/mk/deal/detail,P,ADMIN,1,5,Y,NULL,2018-06-01 00:00:00,INIT,INIT,2018-06-01 00:00:00,INIT,INIT
+268,266,딜러사 상세 통계 엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 마케팅비즈챗 > 딜러사별 상세 통계 > 엑셀 리포트 다운로드,/stat/mk/deal/detail/excel,F,ADMIN,2,5,Y,NULL,2018-06-01 00:00:00,INIT,INIT,2018-06-01 00:00:00,INIT,INIT
+272,13,마케팅비즈챗,메시지 관리 & 통계 > 통계 > 설문비즈챗,/stat/sv/all,M,ADMIN,4,3,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+273,272,고객사 전체 통계,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 고객사 전체 통계,/stat/sv/all,M,ADMIN,1,4,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+274,273,고객사별 전체 통계 상세내역,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 고객사 전체 통계 > 고객사 전체 통계 상세내역,/stat/sv/all/detail,P,ADMIN,1,5,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+275,273,엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 고객사 전체 통계 > 상세내역 > 엑셀 리포트 다운로드,/stat/sv/all/detail/excel,F,ADMIN,2,5,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+276,272,고객사 비교 통계,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 고객사 비교 통계,/stat/sv,M,ADMIN,2,4,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+277,276,엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 고객사 비교 통계 > 엑셀 리포트 다운로드,/stat/sv/excel,F,ADMIN,2,5,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+278,276,상세 통계 (설문 이력 조회),메시지 관리 & 통계 > 통계 > 설문비즈챗 > 고객사 비교 통계 > 설문 이력 조회,/stat/sv/surveyHist,P,ADMIN,1,5,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+279,276,엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 고객사 비교 통계 > 설문 이력 조회 > 엑셀 리포트 다운로드,/stat/sv/surveyHist/excel,F,ADMIN,2,5,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+280,272,고객사별 상세 통계,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 고객사 상세 통계,/stat/sv/custom,M,ADMIN,3,4,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+281,280,고객사별 상세 통계 상세내역,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 고객사 상세 통계 > 고객사 상세 통계 상세내역,/stat/sv/custom/detail,P,ADMIN,1,5,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+282,280,엑셀 리포트 다운로드,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 고객사 상세 통계 > 엑셀 리포트 다운로드,/stat/sv/custom/detail/excel,F,ADMIN,2,5,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+283,272,딜러사 상세 통계,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 딜러사별 상세 통계,/stat/sv/deal,M,ADMIN,4,4,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+284,283,딜러사 상세 통계 상세내역,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 딜러사별 상세 통계 > 딜러사별 상세 통계 상세내역,/stat/sv/deal/detail,P,ADMIN,1,5,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+285,283,딜러사 상세 통계 엑셀 다운로드,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 딜러사별 상세 통계 > 딜러사별 상세 통계 엑셀 다운로드,/stat/sv/deal/detail/excel,F,ADMIN,2,5,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+286,283,고객사별 특번 리스트 조회,메시지 관리 & 통계 > 통계 > 설문비즈챗 > 고객사 상세 통계,/stat/sv/custom/spcnumlist,F,ADMIN,2,4,Y,NULL,2018-06-12 00:00:00,INIT,INIT,2018-06-12 00:00:00,INIT,INIT
+288,206,actionHistory 엑셀 리포트 다운로드,메시지 관리 & 통계 > 마케팅비즈챗 > 고객사별 결과 분석 > actionHistory엑셀 다운로드,/stat/mk/analytics/excel/actionHistory,F,ADMIN,8,5,Y,NULL,2018-07-13 19:29:19,INIT,INIT,2018-07-13 19:29:19,INIT,INIT
+289,NULL,엑셀 다운로드함,엑셀 다운로드함,/user/download/list,P,ADMIN,1,1,Y,NULL,2018-09-27 00:10:00,INIT,INIT,2018-09-27 00:10:00,INIT,INIT
+290,289,엑셀 다운로드,엑셀 다운로드함 > 엑셀 다운로드,/user/download/result,F,ADMIN,1,2,Y,NULL,2018-10-05 00:00:00,INIT,INIT,2018-10-05 00:00:00,INIT,INIT
+667,240,전송완료 메시지 조회,메시지 관리 & 통계 > 설문비즈챗 > 전송완료 메시지 조회,/svMate/completeListElastic,M,ADMIN,4,3,Y,NULL,2018-09-27 00:00:00,INIT,INIT,2018-09-27 00:00:00,INIT,INIT
+668,191,전송완료 메시지 조회,메시지 관리 & 통계 > 마케팅비즈챗 > 전송완료 메시지 조회,/mkMate/completeListElastic,M,ADMIN,4,3,Y,NULL,2018-09-27 00:00:00,INIT,INIT,2018-09-27 00:00:00,INIT,INIT
+669,11,전송완료 메시지 조회,메시지 관리 & 통계 > CS비즈챗 > 전송완료 메시지 조회,/csMate/completeListElastic,M,ADMIN,4,3,Y,NULL,2018-09-27 00:00:00,INIT,INIT,2018-09-27 00:00:00,INIT,INIT
+670,10,전송완료 메시지 조회,메시지 관리 & 통계 > 알림비즈챗 > 전송완료 메시지 조회,/notiMate/completeListElastic,M,ADMIN,4,3,Y,NULL,2018-09-27 00:00:00,INIT,INIT,2018-09-27 00:00:00,INIT,INIT
+2010,283,프로젝트 리스트 조회,메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 프로젝트 리스트 조회,/stat/searchSurveyProject,F,ADMIN,3,5,Y,NULL,2018-12-12 19:20:48,INIT,INIT,2018-12-12 19:20:48,INIT,INIT
+2011,283,설문 리스트 조회,메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 설문 리스트 조회,/stat/searchProjectSurveyList,F,ADMIN,4,5,Y,NULL,2018-12-12 19:56:03,INIT,INIT,2018-12-12 19:56:03,INIT,INIT
+2012,280,고객사별 상세 통계 상세내역,메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 고객사별 상세 통계 상세내역,/stat/sv/custom/surveyDayHist,P,ADMIN,5,5,Y,NULL,2018-12-13 21:45:43,INIT,INIT,2018-12-13 21:45:43,INIT,INIT
+2013,280,상세 통계(설문 이력 조회),메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 상세 통계(설문 이력 조회),/stat/sv/custom/surveyCompleDayHist,P,ADMIN,6,5,Y,NULL,2018-12-14 18:26:05,INIT,INIT,2018-12-14 18:26:05,INIT,INIT
+2018,2012,설문제목 상세 엑셀다운로드,메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 설문제목 조회 > 설문제목 상세 엑셀다운로드,/stat/surveyDayHist/sv/excel,F,ADMIN,1,6,Y,NULL,2018-12-21 22:50:48,INIT,INIT,2018-12-21 22:50:48,INIT,INIT
+2019,2013,설문완료 상세 엑셀다운로드,메시지 관리 & 통계 > 설문비즈챗 > 고객사 상세 통계 > 설문완료건 조회 > 설문완료 상세 엑셀다운로드,/stat/detail/hist/excel/sv,F,ADMIN,1,6,Y,NULL,2018-12-21 22:50:53,INIT,INIT,2018-12-21 22:50:53,INIT,INIT
+2020,651,인구통계 분석,통계 > 마케팅비즈챗 > 고객사별 상세 통계 > 고객사별 상세 통계 상세내역 ,/stat/surveyReportAnalysis,P,ADMIN,7,5,Y,NULL,2019-08-26 13:38:56,INIT,INIT,2019-08-26 13:38:56,INIT,INIT
+2021,651,인구통계 분석,통계 > 마케팅비즈챗 > 고객사별 상세 통계 > 고객사별 상세 통계 상세내역 ,/stat/surveyReportAnalysis/downloadExcel,F,ADMIN,1,NULL,Y,NULL,2019-08-26 13:39:03,INIT,INIT,2019-08-26 13:39:03,INIT,INIT
+2114,240,전송완료 실패 내역,메시지 관리 & 통계 > 설문비즈챗 > 전송완료 실패 내역,/svMate/failCompleteList,P,ADMIN,6,3,Y,NULL,2019-05-24 17:53:00,INIT,INIT,2019-05-24 17:53:00,INIT,INIT
+2115,240,MO 실패 내역,메시지 관리 & 통계 > 설문비즈챗 > MO 실패 내역,/svMate/failMoList,P,ADMIN,7,3,Y,NULL,2019-05-24 17:53:00,INIT,INIT,2019-05-24 17:53:00,INIT,INIT
