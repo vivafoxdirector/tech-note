@@ -1,0 +1,81 @@
+500,NULL,Main,Main,/main,P,CUSTOMER,1,1,Y,NULL,2017-12-13 16:42:16,INIT,INIT,2017-12-13 16:42:16,INIT,INIT
+501,NULL,상품소개,상품소개,NULL,M,CUSTOMER,2,1,Y,NULL,2017-12-13 16:42:16,INIT,INIT,2017-12-13 16:42:16,INIT,INIT
+502,NULL,리포트,리포트,NULL,M,CUSTOMER,4,1,Y,NULL,2017-12-13 16:42:16,INIT,INIT,2017-12-13 16:42:16,INIT,INIT
+504,NULL,이벤트,이벤트,NULL,M,CUSTOMER,6,1,Y,NULL,2017-12-13 16:42:17,INIT,INIT,2017-12-13 16:42:17,INIT,INIT
+505,NULL,고객센터,고객센터,NULL,M,CUSTOMER,7,1,Y,NULL,2017-12-13 16:42:17,INIT,INIT,2017-12-13 16:42:17,INIT,INIT
+506,NULL,마이페이지,마이페이지,NULL,M,CUSTOMER,8,1,Y,NULL,2017-12-13 16:42:17,INIT,INIT,2017-12-13 16:42:17,INIT,INIT
+508,501,상담비즈챗,상품소개 > CS비즈챗,/main#bizChatGuideCs,M,CUSTOMER,2,2,Y,NULL,2017-12-13 16:42:18,INIT,INIT,2017-12-13 16:42:18,INIT,INIT
+509,501,메시지 인사이트,상품소개 > 마케팅비즈챗,/main#bizChatGuideMk,M,CUSTOMER,3,2,Y,NULL,2017-12-13 16:42:18,INIT,INIT,2017-12-13 16:42:18,INIT,INIT
+511,502,상담비즈챗,리포트 > CS비즈챗,/statistics/main/cs,M,CUSTOMER,2,2,Y,NULL,2017-12-13 16:42:18,INIT,INIT,2017-12-13 16:42:18,INIT,INIT
+512,502,메시지 인사이트,리포트 > 마케팅비즈챗,/statistics/main/mk,M,CUSTOMER,3,2,Y,NULL,2017-12-13 16:42:19,INIT,INIT,2017-12-13 16:42:19,INIT,INIT
+516,504,이벤트,이벤트 > 이벤트,NULL,M,CUSTOMER,1,2,Y,NULL,2017-12-13 16:42:19,INIT,INIT,2017-12-13 16:42:19,INIT,INIT
+517,505,FAQ,고객센터 > FAQ,NULL,M,CUSTOMER,1,2,Y,NULL,2017-12-13 16:42:20,INIT,INIT,2017-12-13 16:42:20,INIT,INIT
+518,505,공지사항,고객센터 > 공지사항,NULL,M,CUSTOMER,2,2,Y,NULL,2017-12-13 16:42:20,INIT,INIT,2017-12-13 16:42:20,INIT,INIT
+519,505,1:1 문의,고객센터 > 1:1 문의,NULL,M,CUSTOMER,3,2,Y,NULL,2017-12-13 16:42:20,INIT,INIT,2017-12-13 16:42:20,INIT,INIT
+521,506,마이프로필,마이페이지 > 마이프로필,/myPage/profileDetail,M,CUSTOMER,1,2,Y,NULL,2017-12-13 16:42:20,INIT,INIT,2017-12-13 16:42:20,INIT,INIT
+524,506,나의 1:1 문의,마이페이지 > 나의 1:1 문의,/myPage/qnaList,M,CUSTOMER,4,2,Y,NULL,2017-12-13 16:42:21,INIT,INIT,2017-12-13 16:42:21,INIT,INIT
+535,511,상담통계(상세 리포트),리포트 > CS비즈챗 > 상담통계(상세 리포트),/statistics/detail/report/cs,P,CUSTOMER,1,3,Y,NULL,2017-12-13 16:42:24,INIT,INIT,2017-12-13 16:42:24,INIT,INIT
+536,511,상담통계(상세 리포트) 엑셀 다운로드,리포트 > CS비즈챗 > 상담통계(상세 리포트) > 엑셀 다운로드,/statistics/detail/excel/cs,F,CUSTOMER,2,3,Y,NULL,2017-12-13 16:42:24,INIT,INIT,2017-12-13 16:42:24,INIT,INIT
+537,511,상담통계(상담 이력 조회),리포트 > CS비즈챗 > 상담통계(상담 이력 조회),/statistics/detail/hist/cs,P,CUSTOMER,3,3,Y,NULL,2017-12-13 16:42:24,INIT,INIT,2017-12-13 16:42:24,INIT,INIT
+538,511,상담통계(상담 이력 조회) 엑셀 다운로드,리포트 > CS비즈챗 > 상담통계(상담 이력 조회) > 엑셀 다운로드,/statistics/detail/hist/excel/cs,F,CUSTOMER,4,3,Y,NULL,2017-12-13 16:42:25,INIT,INIT,2017-12-13 16:42:25,INIT,INIT
+541,511,발신문자 실패 내역 통계,리포트 > CS비즈챗 > 실패 내역 통계,/statistics/fail/cs/mt,P,CUSTOMER,7,3,Y,NULL,2017-12-13 16:42:25,INIT,INIT,2017-12-13 16:42:25,INIT,INIT
+542,511,수신문자 실패 내역 통계,리포트 > CS비즈챗 > 실패 내역 통계,/statistics/fail/cs/mo,P,CUSTOMER,8,3,Y,NULL,2017-12-13 16:42:25,INIT,INIT,2017-12-13 16:42:25,INIT,INIT
+543,511,실패 내역 엑셀다운로드,리포트 > CS비즈챗 > 실패 내역 엑셀다운로드,/statistics/fail/excel/cs/mt,F,CUSTOMER,9,3,Y,NULL,2017-12-13 16:42:26,INIT,INIT,2017-12-13 16:42:26,INIT,INIT
+544,511,실패 내역 엑셀다운로드,리포트 > CS비즈챗 > 실패 내역 엑셀다운로드,/statistics/fail/excel/cs/mo,F,CUSTOMER,10,3,Y,NULL,2017-12-13 16:42:26,INIT,INIT,2017-12-13 16:42:26,INIT,INIT
+545,512,발신문자통계,리포트 > 마케팅비즈챗 > 발신문자통계 > 상세내역,/statistics/detail/mk/mt,P,CUSTOMER,1,3,Y,NULL,2017-12-13 16:42:26,INIT,INIT,2017-12-13 16:42:26,INIT,INIT
+546,512,수신문자통계,리포트 > 마케팅비즈챗 > 수신문자통계 > 상세내역,/statistics/detail/mk/mo,P,CUSTOMER,2,3,Y,NULL,2017-12-13 16:42:26,INIT,INIT,2017-12-13 16:42:26,INIT,INIT
+547,512,발신문자통계 상세,리포트 > 마케팅비즈챗 > 발신문자통계 > 상세 리포트,/statistics/detail/report/mk/mt,P,CUSTOMER,3,3,Y,NULL,2017-12-13 16:42:27,INIT,INIT,2017-12-13 16:42:27,INIT,INIT
+548,512,수신문자통계 상세,리포트 > 마케팅비즈챗 > 수신문자통계 > 상세 리포트,/statistics/detail/report/mk/mo,P,CUSTOMER,4,3,Y,NULL,2017-12-13 16:42:27,INIT,INIT,2017-12-13 16:42:27,INIT,INIT
+549,512,수신문자 엑셀 다운로드,리포트 > 마케팅비즈챗 엑셀 다운로드,/statistics/detail/excel/mk/mo,F,CUSTOMER,5,3,Y,NULL,2017-12-13 16:42:27,INIT,INIT,2017-12-13 16:42:27,INIT,INIT
+550,512,발신문자 엑셀 다운로드,리포트 > 마케팅비즈챗 엑셀 다운로드,/statistics/detail/excel/mk/mt,F,CUSTOMER,6,3,Y,NULL,2017-12-13 16:42:27,INIT,INIT,2017-12-13 16:42:27,INIT,INIT
+551,512,발신문자 실패 내역 통계,리포트 > 마케팅비즈챗 > 실패 내역 통계,/statistics/fail/mk/mt,P,CUSTOMER,7,3,Y,NULL,2017-12-13 16:42:27,INIT,INIT,2017-12-13 16:42:27,INIT,INIT
+552,512,수신문자 실패 내역 통계,리포트 > 마케팅비즈챗 > 실패 내역 통계,/statistics/fail/mk/mo,P,CUSTOMER,8,3,Y,NULL,2017-12-13 16:42:28,INIT,INIT,2017-12-13 16:42:28,INIT,INIT
+553,512,실패 내역 엑셀다운로드,리포트 > 마케팅비즈챗 > 실패 내역 엑셀다운로드,/statistics/fail/excel/mk/mt,F,CUSTOMER,9,3,Y,NULL,2017-12-13 16:42:28,INIT,INIT,2017-12-13 16:42:28,INIT,INIT
+554,512,실패 내역 엑셀다운로드,리포트 > 마케팅비즈챗 > 실패 내역 엑셀다운로드,/statistics/fail/excel/mk/mo,F,CUSTOMER,10,3,Y,NULL,2017-12-13 16:42:28,INIT,INIT,2017-12-13 16:42:28,INIT,INIT
+555,516,이벤트조회,이벤트 > 이벤트조회,/event/list,P,CUSTOMER,1,3,Y,NULL,2017-12-13 16:42:28,INIT,INIT,2017-12-13 16:42:28,INIT,INIT
+556,516,이벤트상세,이벤트 > 이벤트상세,/event/detail,P,CUSTOMER,2,3,Y,NULL,2017-12-13 16:42:29,INIT,INIT,2017-12-13 16:42:29,INIT,INIT
+557,517,FAQ 목록,고객센터 > FAQ,/faq/list,P,CUSTOMER,1,3,Y,NULL,2017-12-13 16:42:29,INIT,INIT,2017-12-13 16:42:29,INIT,INIT
+558,518,공지사항,고객센터 > 공지사항,/noti/list,P,CUSTOMER,1,3,Y,NULL,2017-12-13 16:42:29,INIT,INIT,2017-12-13 16:42:29,INIT,INIT
+559,518,공지사항 조회수 업데이트,고객센터 > 공지사항 > 공지사항 조회수 업데이트,/noti/addNotiCnt,F,CUSTOMER,2,3,Y,NULL,2017-12-13 16:42:29,INIT,INIT,2017-12-13 16:42:29,INIT,INIT
+560,519,1:1문의,고객센터 > 1:1문의,/qna/regist,P,CUSTOMER,1,3,Y,NULL,2017-12-13 16:42:29,INIT,INIT,2017-12-13 16:42:29,INIT,INIT
+561,519,1:1문의 저장,고객센터 > 1:1문의 > 1:1문의의 저장,/qna/registSave,F,CUSTOMER,2,3,Y,NULL,2017-12-13 16:42:30,INIT,INIT,2017-12-13 16:42:30,INIT,INIT
+564,557,FAQ 조회수 업데이트,고객센터 > FAQ,/faq/addFaqCnt,F,CUSTOMER,1,3,Y,NULL,2017-12-13 16:42:30,INIT,INIT,2017-12-13 16:42:30,INIT,INIT
+565,524,나의 1:1 문의 삭제,마이페이지 > 나의 1:1 문의 > 나의 1:1 문의 삭제,/myPage/qnaDelete,F,CUSTOMER,1,3,Y,NULL,2017-12-13 16:42:31,INIT,INIT,2017-12-13 16:42:31,INIT,INIT
+576,524,나의 1:1 문의 상세,마이페이지 > 나의 1:1 문의 > 나의 1:1 문의 상세,/myPage/qnaDetail,F,CUSTOMER,2,3,Y,NULL,2017-12-13 16:42:33,INIT,INIT,2017-12-13 16:42:33,INIT,INIT
+577,506,마이페이지 비밀번호 입력,마이페이지 > 비밀번호 입력,/myPage/gate,P,CUSTOMER,1,3,Y,NULL,2017-12-13 16:42:33,INIT,INIT,2017-12-13 16:42:33,INIT,INIT
+578,506,마이페이지 비밀번호 확인,마이페이지 > 비밀번호 확인,/myPage/gate/pwcheck,F,CUSTOMER,2,3,Y,NULL,2017-12-13 16:42:33,INIT,INIT,2017-12-13 16:42:33,INIT,INIT
+579,521,마이 프로필 수정,마이페이지 > 마이 프로필 > 마이 프로필 수정,/myPage/saveRegistProfile,F,CUSTOMER,1,3,Y,NULL,2017-12-13 16:42:33,INIT,INIT,2017-12-13 16:42:33,INIT,INIT
+580,579,이메일 중복 확인,마이페이지 > 마이 프로필 > 마이 프로필 수정 > 이메일 중복 확인,/myPage/checkEmailDuple,F,CUSTOMER,1,4,Y,NULL,2017-12-13 16:42:34,INIT,INIT,2017-12-13 16:42:34,INIT,INIT
+581,521,회원탈퇴,마이페이지 > 마이 프로필 > 회원탈퇴,/myPage/resContactLeave,P,CUSTOMER,2,3,Y,NULL,2017-12-13 16:42:34,INIT,INIT,2017-12-13 16:42:34,INIT,INIT
+582,581,회원탈퇴 저장,마이페이지 > 마이 프로필 > 회원탈퇴 저장,/myPage/saveContactLeave,F,CUSTOMER,1,3,Y,NULL,2017-12-13 16:42:34,INIT,INIT,2017-12-13 16:42:34,INIT,INIT
+583,579,비밀번호 변경,마이페이지 > 마이 프로필 > 마이 프로필 수정 > 비밀번호 변경,/myPage/checkOriginPassword,F,CUSTOMER,2,4,Y,NULL,2017-12-13 16:42:34,INIT,INIT,2017-12-13 16:42:34,INIT,INIT
+584,579,비밀번호 변경 저장,마이페이지 > 마이 프로필 > 마이 프로필 수정 > 비밀번호 변경 저장,/myPage/changePassword,F,CUSTOMER,3,4,Y,NULL,2017-12-13 16:42:35,INIT,INIT,2017-12-13 16:42:35,INIT,INIT
+607,518,공지사항 상세,고객센터 > 공지사항 > 공지사항 상세,/noti/detail,P,CUSTOMER,2,3,Y,NULL,2017-12-13 16:42:39,INIT,INIT,2017-12-13 16:42:39,INIT,INIT
+608,518,공지사항 이미지 다운로드,고객센터 > 공지사항 > 공지사항 이미지 다운로드,/noti/attachDownload,F,CUSTOMER,2,3,Y,NULL,2017-12-13 16:42:39,INIT,INIT,2017-12-13 16:42:39,INIT,INIT
+609,516,이벤트 이미지 다운로드,이벤트 > 이벤트 이미지 다운로드,/event/attachDownload,F,CUSTOMER,2,3,Y,NULL,2017-12-13 16:42:39,INIT,INIT,2017-12-13 16:42:39,INIT,INIT
+610,512,결과분석리포트,리포트 > 마케팅비즈챗,/statistics/analytics,F,CUSTOMER,4,2,Y,NULL,2017-12-13 16:42:39,INIT,INIT,2017-12-13 16:42:39,INIT,INIT
+611,512,결과분석통계,리포트 > 마케팅비즈챗 > 결과분석,/statistics/analytics/mk,P,CUSTOMER,11,3,Y,NULL,2017-12-13 16:42:40,INIT,INIT,2017-12-13 16:42:40,INIT,INIT
+612,611,결과분석통계(방문자 상세),리포트 > 마케팅비즈챗 > 결과분석 > 방문자 상세보기,/statistics/analytics/mk/visitor,P,CUSTOMER,1,4,Y,NULL,2017-12-13 16:42:40,INIT,INIT,2017-12-13 16:42:40,INIT,INIT
+613,611,결과분석통계(반응률 상세),리포트 > 마케팅비즈챗 > 결과분석 > 반응률 상세보기,/statistics/analytics/mk/reaction,P,CUSTOMER,2,4,Y,NULL,2017-12-13 16:42:40,INIT,INIT,2017-12-13 16:42:40,INIT,INIT
+614,611,결과분석통계(성별 상세),리포트 > 마케팅비즈챗 > 결과분석 > 성별 상세보기,/statistics/analytics/mk/gender,P,CUSTOMER,3,4,Y,NULL,2017-12-13 16:42:40,INIT,INIT,2017-12-13 16:42:40,INIT,INIT
+615,611,결과분석통계(연령 상세),리포트 > 마케팅비즈챗 > 결과분석 > 연령 상세보기,/statistics/analytics/mk/age,P,CUSTOMER,4,4,Y,NULL,2017-12-13 16:42:40,INIT,INIT,2017-12-13 16:42:40,INIT,INIT
+616,611,결과분석통계(지역 상세),리포트 > 마케팅비즈챗 > 결과분석 > 지역 상세보기,/statistics/analytics/mk/region,P,CUSTOMER,5,4,Y,NULL,2017-12-13 16:42:40,INIT,INIT,2017-12-13 16:42:40,INIT,INIT
+617,611,결과분석통계(접속시간 상세),리포트 > 마케팅비즈챗 > 결과분석 > 접속시간 상세보기,/statistics/analytics/mk/time,P,CUSTOMER,6,4,Y,NULL,2017-12-13 16:42:41,INIT,INIT,2017-12-13 16:42:41,INIT,INIT
+618,611,결과분석통계 엑셀 리포트 다운로드,리포트 > 마케팅비즈챗 > 결과분석 > 엑셀 다운로드,/statistics/analytics/mk/excel,F,CUSTOMER,7,4,Y,NULL,2017-12-13 16:42:41,INIT,INIT,2017-12-13 16:42:41,INIT,INIT
+633,519,개인정보활용동의서,고객센터 > 1:1문의 > 개인정보활용동의서,/qna/personalInfoAgrePupUp,P,CUSTOMER,3,3,Y,NULL,2017-12-29 12:25:56,INIT,INIT,2017-12-29 12:25:56,INIT,INIT
+649,501,마케팅비즈챗,상품소개 > 설문비즈챗,/main#bizChatGuideSv,M,CUSTOMER,4,2,Y,NULL,2018-05-31 00:00:00,INIT,INIT,2018-05-31 00:00:00,INIT,INIT
+651,502,마케팅비즈챗,리포트 > 설문비즈챗,/statistics/main/sv,M,CUSTOMER,4,2,Y,NULL,2018-06-11 00:00:00,INIT,INIT,2018-06-11 00:00:00,INIT,INIT
+654,651,설문통계(설문 이력 조회),리포트 > 설문비즈챗 > 설문통계(설문 이력 조회),/statistics/detail/hist/sv,P,CUSTOMER,3,3,Y,NULL,2018-06-11 00:00:00,INIT,INIT,2018-06-11 00:00:00,INIT,INIT
+655,651,설문통계(설문 이력 조회) 엑셀 다운로드,리포트 > 설문비즈챗 > 설문통계(설문 이력 조회) > 엑셀 다운로드,/statistics/detail/hist/excel/sv,F,CUSTOMER,4,3,Y,NULL,2018-06-11 00:00:00,INIT,INIT,2018-06-11 00:00:00,INIT,INIT
+662,651,설문 리스트 불러오기,리포트 > 설문비즈챗 > 설문리스트 불러오기,/statistics/sv/survey/list,F,CUSTOMER,5,3,Y,NULL,2018-07-09 00:00:00,INIT,INIT,2018-07-09 00:00:00,INIT,INIT
+666,611,actionHistory 엑셀 리포트 다운로드,리포트 > 마케팅비즈챗 > 결과분석 > actionHistory 엑셀 다운로드,/statistics/analytics/mk/excel/actionHistory,F,CUSTOMER,8,4,Y,NULL,2018-07-13 19:19:13,INIT,INIT,2018-07-13 19:19:13,INIT,INIT
+2014,651,설문리스트 불러오기,리포트 > 설문비즈챗 > 설문리스트 불러오기,/statistics/searchProjectSurveyList,F,CUSTOMER,11,3,Y,NULL,2018-12-15 02:50:41,INIT,INIT,2018-12-15 02:50:41,INIT,INIT
+2015,651,설문통계(설문 제목),리포트 > 설문비즈챗 > 설문통계(설문 제목),/statistics/sv/surveyDayHist,P,CUSTOMER,12,3,Y,NULL,2018-12-16 00:03:12,INIT,INIT,2018-12-16 00:03:12,INIT,INIT
+2016,651,전체설문엑셀다운로드,리포트 > 설문비즈챗 > 전체설문엑셀다운로드,/statistics/main/sv/excel,F,CUSTOMER,13,3,Y,NULL,2018-12-18 17:59:44,INIT,INIT,2018-12-18 17:59:44,INIT,INIT
+2017,651,설문상세엑셀다운로드,리포트 > 설문비즈챗 > 설문상세엑셀다운로드,/statistics/surveyDayHist/sv/excel,F,CUSTOMER,14,3,Y,NULL,2018-12-18 20:01:39,INIT,INIT,2018-12-18 20:01:39,INIT,INIT
+2103,611,링크별 통계,리포트 > 마케팅비즈챗 > 결과분석 > 반응률 상세보기 > 링크별 통계,/statistics/analytics/mk/reactionReportPopup,P,CUSTOMER,10,4,Y,NULL,2019-01-31 20:27:04,INIT,INIT,2019-01-31 20:27:04,INIT,INIT
+2104,611,방문자 통계,리포트 > 마케팅비즈챗 > 결과분석 > 반응률 상세보기 > 방문자 통계,/statistics/analytics/mk/visitorReportPopup,P,CUSTOMER,10,4,Y,NULL,2019-01-31 20:27:04,INIT,INIT,2019-01-31 20:27:04,INIT,INIT
+2107,611,링크별 통계,리포트 > 마케팅비즈챗 > 결과분석 > 반응률 상세보기 > 링크별 통계 엑셀 요청,/statistics/analytics/mk/reactionReportExcel,P,CUSTOMER,10,4,Y,NULL,2019-01-31 20:27:24,INIT,INIT,2019-01-31 20:27:24,INIT,INIT
+2108,611,방문자 통계,리포트 > 마케팅비즈챗 > 결과분석 > 반응률 상세보기 > 방문자 통계 엑셀 요청,/statistics/analytics/mk/visitorReportExcel,P,CUSTOMER,10,4,Y,NULL,2019-01-31 20:27:24,INIT,INIT,2019-01-31 20:27:24,INIT,INIT
+2122,651,인구통계 분석,리포트 > 마케팅비즈챗 > 인구통계분석,/statistics/surveyReportAnalysis,P,CUSTOMER,NULL,NULL,Y,NULL,2019-08-08 16:46:31,INIT,INIT,2019-08-08 16:46:31,INIT,INIT
+2123,651,인구통계 분석 엑셀다운로드,리포트 > 마케팅비즈챗 > 인구통계분석 > 인구통계,/statistics/surveyReportAnalysis/downloadExcel,F,CUSTOMER,1,NULL,Y,NULL,2019-08-08 16:46:35,INIT,INIT,2019-08-08 16:46:35,INIT,INIT
