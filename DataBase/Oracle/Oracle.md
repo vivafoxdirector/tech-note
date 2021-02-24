@@ -14,6 +14,22 @@ ALTER TABLE my_table ADD (
 
 ```
 
+### SYSDATE
+```SQL
+select sysdate from dual;
+
+-- 1일 후
+select sysdate + 1 from dual;
+
+-- 10분 후
+select sysdate + 10/(24*60) from dual;
+
+-- 10초 후
+select sysdate + 10/(24*60*60) from dual;
+
+-- 12시간 후
+select sysdate + 12/24 from dual;
+```
 
 # 참조사이트
 - [ALTER TABLE （列の追加、変更、削除）](https://www.shift-the-oracle.com/sql/alter-table-column.html)
