@@ -13,4 +13,5 @@ mvn install -Dmaven.test.skip=true
 1. 이클립스에서 Test 제외 install
 2. 이클립스에서 Test 제외 install
 3. 이클립스에서 Test 제외 install
+4. 이클립스에서 Test 제외 install
 - [Build Maven Project Without Running Unit Tests](https://stackoverflow.com/questions/1607315/build-maven-project-without-running-unit-tests/15208280)
